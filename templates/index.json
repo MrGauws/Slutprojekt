@@ -103,11 +103,196 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_Lfcfa6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UCWzPg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>NEW ADAPT SAFARI<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_XhfPJH": {
+          "type": "text",
+          "settings": {
+            "text": "You asked, we scrunched. The Adapt bum-scrunch is back and better than ever.",
+            "text_style": "body"
+          }
+        },
+        "buttons_fYDxbP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP ADAPT",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP LEGGINGS & SHORTS",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UCWzPg",
+        "text_XhfPJH",
+        "buttons_fYDxbP"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_VL8NLF": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>WOMENS<\/strong>",
+        "heading_size": "h2",
+        "description": "<h2><strong>NEW ADAPT SAFARI<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "new-adapt-safari",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_jyUqDy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wXpKF4": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SEAMLESS-SO-SOFT, YOU’LL NEVER WANT TO TAKE IT OFF<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Xxgcbk": {
+          "type": "text",
+          "settings": {
+            "text": "Your rest day has literally never been as comfy as Cotton Seamless.",
+            "text_style": "body"
+          }
+        },
+        "buttons_6JrKmT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wXpKF4",
+        "text_Xxgcbk",
+        "buttons_6JrKmT"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero2.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_BPgn4q": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>WOMENS<\/strong>",
+        "heading_size": "h2",
+        "description": "<h2><strong> COTTON SEAMLESS<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "womens-cotton-seamless",
+        "products_to_show": 10,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_VEPAGc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "EDIT IN CODE",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "featured_collection_PEqTH7"
+    "featured_collection_PEqTH7",
+    "image_banner_Lfcfa6",
+    "featured_collection_VL8NLF",
+    "image_banner_jyUqDy",
+    "featured_collection_BPgn4q",
+    "featured_collection_VEPAGc"
   ]
 }
