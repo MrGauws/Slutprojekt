@@ -24,7 +24,7 @@
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "SHOP MEN",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/collections\/this-months-fressh-fits",
             "button_style_secondary_2": false
           }
         }
@@ -53,7 +53,7 @@
       "settings": {
         "title": "<strong>THIS MONTH'S FRESSH FITS <\/strong>",
         "heading_size": "h2",
-        "description": "<p><a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/p>",
+        "description": "<p><a href=\"\/collections\/this-months-fressh-fits\" target=\"_blank\" title=\"THIS MONTH'S FRESSH FITS\">View All<\/a><\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "this-months-fressh-fits",
@@ -125,10 +125,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP ADAPT",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/womens-new-adaptt-safari",
             "button_style_secondary_1": false,
             "button_label_2": "SHOP LEGGINGS & SHORTS",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": false
           }
         }
@@ -157,7 +157,7 @@
       "settings": {
         "title": "<strong>WOMENS<\/strong>",
         "heading_size": "h2",
-        "description": "<h2><strong>NEW ADAPTT SAFARI<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
+        "description": "<h2><strong>NEW ADAPTT SAFARI<\/strong> <a href=\"\/collections\/womens-new-adaptt-safari\" target=\"_blank\" title=\"WOMENS NEW ADAPTT SAFARI\">View All<\/a><\/h2>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "womens-new-adaptt-safari",
@@ -201,7 +201,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/seamles",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -233,7 +233,7 @@
       "settings": {
         "title": "<strong>WOMENS<\/strong>",
         "heading_size": "h2",
-        "description": "<h2><strong> COTTON SEAMLESS<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
+        "description": "<h2><strong> COTTON SEAMLESS<\/strong> <a href=\"\/collections\/seamles\" title=\"Seamles\">View All<\/a><\/h2>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "seamles",
