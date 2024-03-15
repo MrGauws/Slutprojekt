@@ -167,6 +167,9 @@ h2.banner__heading.inline-richtext.h1 {
   top: -50px;
   right: 0;
 }
+.banner__buttons {
+  flex-wrap: unset !important;
+}
 body {
   margin: 0;
   background: red;

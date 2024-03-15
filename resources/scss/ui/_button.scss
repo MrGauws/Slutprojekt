@@ -3,3 +3,34 @@
     top: -50px; 
     right: 0;
 }
+
+.banner__buttons {
+    flex-wrap: unset !important;
+}
+
+
+.button:after, 
+.shopify-challenge__button:after, 
+.customer button:after, 
+.shopify-payment-button__button--unbranded:after {
+    content: none;
+}
+
+.button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
+    color: white;
+    font-weight: bold;
+}
+
+.banner__box>*+.banner__buttons {
+    margin-right: 28%;
+}
+
+.banner--content-align-center .banner__buttons--multiple > * {
+    border-radius: 5.6rem !important;
+  }
+
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+    background-color: #53565a;
+    border-radius: 5.6rem !important;
+
+  }
