@@ -1,32 +1,56 @@
-.shopify-section-group-footer-group div div {
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-.shopify-section-group-footer-group div div h5 {
+  padding: 30px;
   font-size: 14px;
+  border-top: 1px solid gray;
+}
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div h5 {
+  margin-top: 0;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
 }
-.shopify-section-group-footer-group div div .menu-div div {
-  flex-direction: column;
-}
-.shopify-section-group-footer-group div div .more-about-div {
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 2.5rem;
 }
-.shopify-section-group-footer-group div div .more-about-div div {
-  gap: 10px;
-}
-.shopify-section-group-footer-group div div .more-about-div div .more-holder {
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div {
   display: flex;
   flex-direction: column;
   justify-content: unset;
+  border: none;
+}
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div h5 {
+  margin: 0 0 15px;
+}
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div a {
+  text-decoration: 0;
+  color: #53565a;
+}
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  border: none;
+}
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div div {
+  gap: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div div .more-holder {
+  display: flex;
+  flex-direction: column;
   width: 15vw;
   gap: 0;
+  justify-content: unset;
+  padding: 0;
 }
-.shopify-section-group-footer-group div div .more-about-div div .more-holder h5 {
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div div .more-holder h5 {
   width: 100%;
   padding: 7px 10px;
   text-transform: uppercase;

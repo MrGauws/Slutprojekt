@@ -1,30 +1,56 @@
-.shopify-section-group-footer-group div div {
+.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: $general-padding;
+  font-size: 14px;
+  border-top: 1px solid gray;
 
   h5 {
-    font-size: 14px;
+    margin-top: 0;
     color: $header-text;
     font-weight: bold;
     text-transform: uppercase;
   }
 
-  .menu-div div {
-    flex-direction: column;
+  .menu-div {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: unset;
+      border: none;
+
+      h5 {
+        margin: 0 0 15px;
+      }
+      a {
+        text-decoration: 0;
+        color: $menu-text;
+      }
+    }
   }
 
   .more-about-div {
     display: flex;
     flex-direction: column;
+    justify-content: unset;
+    border: none;
+
     div {
       gap: 10px;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
       .more-holder {
         display: flex;
         flex-direction: column;
-        justify-content: unset;
         width: 15vw;
         gap: 0;
+        justify-content: unset;
+        padding: 0;
 
         h5 {
           width: 100%;
