@@ -35,3 +35,28 @@ h2.banner__heading.inline-richtext.h1{
     margin-right: 130px;
 }
 
+.image-gallery {
+    display: flex;
+    padding: 0 4%;
+  }
+  
+  .image-item {
+    flex: 1;
+    position: relative;
+    margin-right: 10px; /* Justera mellanrummet mellan bilderna */
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 10px; /* Justera knappens avstånd från botten */
+    left: 10px; /* Justera knappens avstånd från vänster */
+    background-color: white;
+    color: black;
+    padding: 10px 20px; /* Justera knappens storlek */
+    text-decoration: none;
+  }
