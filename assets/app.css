@@ -24,6 +24,11 @@
   margin: 0;
   background-color: #e7e7e7;
 }
+.header__heading-link {
+  position: absolute;
+  left: 4%;
+  top: 15%;
+}
 .collection__title {
   margin-left: 4.5%;
 }
@@ -55,6 +60,11 @@
 }
 .slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
   padding-left: 4%;
+}
+.header__heading-link {
+  position: absolute;
+  left: 4%;
+  top: 15%;
 }
 .collection__title {
   margin-left: 4.5%;
