@@ -2,15 +2,24 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_ygJGXP": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"menu-div\">\n<div>\n<h5>help<\/h5>\n{% for link in linklists.help-menu.links %}\n<a href=\"{{ link.url }}\">{{ link.title }}<\/a>\n{% endfor %}\n<\/div>\n<div>\n<h5>account<\/h5>\n{% for link in linklists.account-menu.links %}\n<a href=\"{{ link.url }}\">{{ link.title }}<\/a>\n{% endfor %}\n<\/div>\n<div>\n<h5>pages<\/h5>\n{% for link in linklists.pages-menu.links %}\n<a href=\"{{ link.url }}\">{{ link.title }}<\/a>\n{% endfor %}\n<\/div>\n<\/div>\n<div class=\"more-about-div\">\n<div class=\"more-holder\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/sharkycentral.webp?v=1710513940\" alt=\"Example Image\"><h5>blog<\/h5><\/div>\n<div class=\"more-holder\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/sharkycentral.webp?v=1710513940\" alt=\"Example Image\"><h5>email sign up<\/h5><\/div>\n<div class=\"more-holder\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/sharkycentral.webp?v=1710513940\" alt=\"Example Image\"><h5>gymshark training<\/h5><\/div>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
@@ -21,6 +30,7 @@
     }
   },
   "order": [
+    "custom_liquid_ygJGXP",
     "footer"
   ]
 }
