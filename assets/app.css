@@ -109,6 +109,12 @@
   position: relative;
   top: 10px;
 }
+.banner--desktop-transparent .banner__box {
+  left: 7%;
+}
+h2.banner__heading.inline-richtext.h1 {
+  margin-right: 130px;
+}
 .collection__title {
   margin-left: 4.5%;
 }
@@ -149,6 +155,12 @@
   left: 9%;
   position: relative;
   top: 10px;
+}
+.banner--desktop-transparent .banner__box {
+  left: 7%;
+}
+h2.banner__heading.inline-richtext.h1 {
+  margin-right: 130px;
 }
 .slider-buttons {
   position: absolute;
