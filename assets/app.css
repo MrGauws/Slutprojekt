@@ -12,7 +12,7 @@
 .shopify-section-group-footer-group div div .more-about-div .more-holder {
   display: flex;
   flex-direction: column;
-  justify-content: none;
+  justify-content: unset;
   width: 15vw;
 }
 .shopify-section-group-footer-group div div .more-about-div .more-holder h5 {
@@ -28,7 +28,7 @@
   margin-left: 4.5%;
 }
 .banner__box {
-  right: 33%;
+  right: 13%;
 }
 .banner__box .banner__heading + * {
   margin-right: 26%;
@@ -52,12 +52,15 @@
 .button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
   color: white;
   font-weight: bold;
+}
+.slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
+  padding-left: 4%;
 }
 .collection__title {
   margin-left: 4.5%;
 }
 .banner__box {
-  right: 33%;
+  right: 13%;
 }
 .banner__box .banner__heading + * {
   margin-right: 26%;
@@ -81,6 +84,9 @@
 .button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
   color: white;
   font-weight: bold;
+}
+.slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
+  padding-left: 4%;
 }
 body {
   margin: 0;
