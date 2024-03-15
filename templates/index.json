@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>THIS MONTH'S FRESH FITS<\/strong>",
+            "heading": "<strong>THIS MONTH'S FRESSH FITS<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -51,12 +51,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>THIS MONTH'S FRESH FITS <\/strong>",
+        "title": "<strong>THIS MONTH'S FRESSH FITS <\/strong>",
         "heading_size": "h2",
         "description": "<p><a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "this-months-fresh-fits",
+        "collection": "this-months-fressh-fits",
         "products_to_show": 10,
         "columns_desktop": 5,
         "full_width": true,
@@ -79,12 +79,12 @@
     "featured_collection_PEqTH7": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>GYMSHARK TOP PICKS<\/strong>",
+        "title": "<strong>GÝMSHARK TOP PICKS<\/strong>",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "gymshark-top-picks",
+        "collection": "testsite-top-picks",
         "products_to_show": 2,
         "columns_desktop": 2,
         "full_width": false,
@@ -110,7 +110,7 @@
         "heading_UCWzPg": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>NEW ADAPT SAFARI<\/strong>",
+            "heading": "<strong>NEW ADAPT SAFARII<\/strong>",
             "heading_size": "h1"
           }
         },
@@ -157,10 +157,10 @@
       "settings": {
         "title": "<strong>WOMENS<\/strong>",
         "heading_size": "h2",
-        "description": "<h2><strong>NEW ADAPT SAFARI<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
+        "description": "<h2><strong>NEW ADAPTT SAFARI<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "new-adapt-safari",
+        "collection": "womens-new-adaptt-safari",
         "products_to_show": 10,
         "columns_desktop": 5,
         "full_width": true,
@@ -236,7 +236,7 @@
         "description": "<h2><strong> COTTON SEAMLESS<\/strong> <a href=\"https:\/\/se.gymshark.com\/collections\/new-releases\" target=\"_blank\" title=\"https:\/\/se.gymshark.com\/collections\/new-releases\">View All<\/a><\/h2>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "womens-cotton-seamless",
+        "collection": "seamles",
         "products_to_show": 10,
         "columns_desktop": 5,
         "full_width": true,
