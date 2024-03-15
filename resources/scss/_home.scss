@@ -1,8 +1,3 @@
-.header__heading-link {
-    position: absolute;
-    left: 4%;
-    top: 15%;
-}
 .collection__title {
     margin-left: 4.5%;
   }
@@ -49,3 +44,15 @@
 .slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
     padding-left: 4%;
 }
+
+
+.collection__title.title-wrapper {
+    right: 3%; 
+    position: relative;
+}
+
+.color-scheme-3 .collection .collection__title h2 {
+    left: 9%;
+    position: relative;
+    top: 10px;
+  }
