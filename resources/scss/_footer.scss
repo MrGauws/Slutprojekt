@@ -3,26 +3,38 @@
   flex-direction: row;
   justify-content: space-between;
 
+  h5 {
+    font-size: 14px;
+    color: $header-text;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
   .menu-div div {
     flex-direction: column;
   }
 
   .more-about-div {
-    gap: 10px;
-    .more-holder {
-      display: flex;
-      flex-direction: column;
-      justify-content: unset;
-      width: 15vw;
+    display: flex;
+    flex-direction: column;
+    div {
+      gap: 10px;
+      .more-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: unset;
+        width: 15vw;
+        gap: 0;
 
-      h5 {
-        width: 100%;
-        padding: 7px 10px;
-        text-transform: uppercase;
-        font-weight: bold;
-        color: #000;
-        margin: 0;
-        background-color: #e7e7e7;
+        h5 {
+          width: 100%;
+          padding: 7px 10px;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #000;
+          margin: 0;
+          background-color: #e7e7e7;
+        }
       }
     }
   }
