@@ -1,3 +1,8 @@
+.header__heading-link {
+    position: absolute;
+    left: 4%;
+    top: 15%;
+}
 .collection__title {
     margin-left: 4.5%;
   }
@@ -38,4 +43,9 @@
 .button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
     color: white;
     font-weight: bold;
+}
+
+
+.slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
+    padding-left: 4%;
 }

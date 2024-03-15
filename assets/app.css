@@ -35,34 +35,10 @@
   margin: 0;
   background-color: #e7e7e7;
 }
-.collection__title {
-  margin-left: 4.5%;
-}
-.banner__box {
-  right: 13%;
-}
-.banner__box .banner__heading + * {
-  margin-right: 26%;
-}
-.banner__box > * + .banner__buttons {
-  margin-right: 28%;
-}
-.banner--content-align-center .banner__buttons--multiple > * {
-  border-radius: 5.6rem !important;
-}
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
-  background-color: #53565a;
-  border-radius: 5.6rem !important;
-}
-.button:after,
-.shopify-challenge__button:after,
-.customer button:after,
-.shopify-payment-button__button--unbranded:after {
-  content: none;
-}
-.button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
-  color: white;
-  font-weight: bold;
+.header__heading-link {
+  position: absolute;
+  left: 4%;
+  top: 15%;
 }
 .collection__title {
   margin-left: 4.5%;
@@ -92,6 +68,46 @@
 .button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
   color: white;
   font-weight: bold;
+}
+.slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
+  padding-left: 4%;
+}
+.header__heading-link {
+  position: absolute;
+  left: 4%;
+  top: 15%;
+}
+.collection__title {
+  margin-left: 4.5%;
+}
+.banner__box {
+  right: 13%;
+}
+.banner__box .banner__heading + * {
+  margin-right: 26%;
+}
+.banner__box > * + .banner__buttons {
+  margin-right: 28%;
+}
+.banner--content-align-center .banner__buttons--multiple > * {
+  border-radius: 5.6rem !important;
+}
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+  background-color: #53565a;
+  border-radius: 5.6rem !important;
+}
+.button:after,
+.shopify-challenge__button:after,
+.customer button:after,
+.shopify-payment-button__button--unbranded:after {
+  content: none;
+}
+.button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
+  color: white;
+  font-weight: bold;
+}
+.slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
+  padding-left: 4%;
 }
 body {
   margin: 0;
