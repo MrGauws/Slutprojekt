@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: $general-padding;
-  font-size: 14px;
+  padding-bottom: 0;
+  font-size: 16px;
   border-top: 1px solid gray;
 
   h5 {
@@ -11,12 +12,13 @@
     color: $header-text;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 16px;
   }
 
   .menu-div {
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 4rem;
     div {
       display: flex;
       flex-direction: column;
@@ -64,4 +66,8 @@
       }
     }
   }
+}
+
+footer {
+  border-top: none !important;
 }

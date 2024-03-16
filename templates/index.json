@@ -256,32 +256,13 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_VEPAGc": {
-      "type": "featured-collection",
+    "custom_liquid_p7tHay": {
+      "type": "custom-liquid",
       "settings": {
-        "title": "EDIT IN CODE",
-        "heading_size": "h0",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 3,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "custom_liquid": "<div class=\"image-gallery\">\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/MenuWoman.webp?v=1710459291\" alt=\"Image 1\">\n    <a href=\"\/page1\" class=\"button\">SHOP WOMEN<\/a>\n  <\/div>\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/MenuMen.webp?v=1710459291\" alt=\"Image 2\">\n    <a href=\"\/page2\" class=\"button\">SHOP MEN<\/a>\n  <\/div>\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/MenuAccessories.webp?v=1710459291\" alt=\"Image 3\">\n    <a href=\"\/page3\" class=\"button\">SHOP ACCESSORIES<\/a>\n  <\/div>\n<\/div>",
         "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -293,6 +274,6 @@
     "featured_collection_VL8NLF",
     "image_banner_jyUqDy",
     "featured_collection_BPgn4q",
-    "featured_collection_VEPAGc"
+    "custom_liquid_p7tHay"
   ]
 }
