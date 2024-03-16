@@ -1,8 +1,3 @@
-.header__heading-link {
-    position: absolute;
-    left: 4%;
-    top: 15%;
-}
 .collection__title {
     margin-left: 4.5%;
   }
@@ -11,41 +6,79 @@
     right: 13%;
 }
 
-
-
 .banner__box .banner__heading+* {
     margin-right: 26%;
 }
 
-
-.banner__box>*+.banner__buttons {
-    margin-right: 28%;
-}
-
-.banner--content-align-center .banner__buttons--multiple > * {
-    border-radius: 5.6rem !important;
-  }
-
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
-    background-color: #53565a;
-    border-radius: 5.6rem !important;
-
-  }
-
-
-.button:after, 
-.shopify-challenge__button:after, 
-.customer button:after, 
-.shopify-payment-button__button--unbranded:after {
-    content: none;
-}
-
-.button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
-    color: white;
-    font-weight: bold;
-}
-
-
 .slider-mobile-gutter.slider-component-full-width.slider-component-desktop.scroll-trigger.animate--slide-in {
     padding-left: 4%;
+}
+
+
+.collection__title.title-wrapper {
+    right: 3%; 
+    position: relative;
+}
+
+.color-scheme-3 .collection .collection__title h2 {
+    left: 9%;
+    position: relative;
+    top: 10px;
+  }
+
+
+
+
+h2.banner__heading.inline-richtext.h1{
+    margin-right: 130px;
+}
+
+.image-gallery {
+    display: flex;
+    padding: 0 4%;
+  }
+  
+  .image-item {
+    flex: 1;
+    position: relative;
+    margin-right: 10px; /* Justera mellanrummet mellan bilderna */
+  }
+  
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 10px; /* Justera knappens avstånd från botten */
+    left: 10px; /* Justera knappens avstånd från vänster */
+    background-color: white;
+    color: black;
+    padding: 10px 20px; /* Justera knappens storlek */
+    text-decoration: none;
+  }
+
+
+
+
+#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
+  margin-right: 35%;
+}
+
+#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box h2.banner__heading strong {
+
+}
+
+
+#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
+  margin-left: 37%;
+}
+
+#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+  margin-right: 40%;
+}
+
+.header__menu-item .icon-caret {
+  display: none;
 }
