@@ -6,7 +6,7 @@
   padding: 30px 60px;
   padding-bottom: 0;
   font-size: 16px;
-  border-top: 1px solid gray;
+  border-top: 1px solid rgb(176, 175, 175);
 }
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div h5 {
   margin-top: 0;
@@ -70,7 +70,7 @@ footer .footer__content-top {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 60px;
+  padding: 0 60px 30px;
   margin: 0;
   min-width: 100%;
 }
@@ -79,21 +79,69 @@ footer .footer__content-top .footer-block--newsletter {
 }
 footer .footer__content-top div {
   display: flex;
-  gap: 12px;
+  gap: 11px;
 }
 footer .footer__content-top div img {
   width: 42px;
 }
 footer .footer__content-bottom-wrapper {
   margin: 0;
+  padding: 0;
+  display: unset !important;
+}
+footer .footer__content-bottom-wrapper .footer__copyright {
+  display: unset !important;
+}
+footer .footer__content-bottom-wrapper .footer__copyright .footer-menu-div {
+  float: right;
+  margin-right: 30px;
+}
+footer .footer__content-bottom-wrapper .footer__copyright .copyright__content {
+  float: left;
+}
+footer .footer__content-bottom-wrapper:first-of-type {
+  width: fit-content;
+  display: unset;
+}
+footer .footer__content-bottom-wrapper .footer__localization {
+  width: fit-content;
 }
 footer .footer__content-bottom {
+  display: flex;
+  flex-direction: row-reverse;
   border: none;
-  padding: 15px 0;
+  padding: 0 60px;
   margin: 0;
+  width: 100%;
+  align-items: center;
+  border-top: 1px solid rgb(176, 175, 175);
 }
 footer .footer__content-bottom p {
   font-size: 14px;
+}
+footer .footer__content-bottom div .footer__column--info {
+  display: none;
+}
+footer .footer__content-bottom div .footer__copyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: unset;
+}
+footer .footer__content-bottom div .footer__copyright small {
+  font-size: 14px;
+  font-weight: 500;
+}
+footer .footer__content-bottom .footer-menu-div a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #444444;
+  font-weight: 500;
+  margin: 0 10px;
+}
+@media screen and (min-width: 750px) {
+  .page-width {
+    display: unset;
+  }
 }
 .header__heading-link {
   position: absolute;

@@ -292,9 +292,6 @@
           <noscript>
             {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
-                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">
-                  {{ 'localization.language_label' | t }}
-                </h2>
                 <select
                   class="localization-selector link"
                   name="locale_code"
@@ -347,6 +344,11 @@
       <div class="footer__copyright caption">
         <small class="copyright__content">&copy; {{ 'now' | date: '%Y' }} | {{ shop.name | link_to: routes.root_url -}} | All Rights Reserved | United We Sweat
         </small>
+        <div class="footer-menu-div">
+          {% for link in linklists.footer.links %}
+            <a href="{{ link.url }}">{{ link.title }}</a>
+          {% endfor %}
+        </div>
         {%- if section.settings.show_policy -%}
           <ul class="policies list-unstyled">
             {%- for policy in shop.policies -%}
