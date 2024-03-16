@@ -34,3 +34,16 @@
     border-radius: 5.6rem !important;
 
   }
+
+.image-gallery .button {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 5.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 700;
+}
