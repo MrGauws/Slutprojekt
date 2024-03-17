@@ -1,17 +1,49 @@
 #MainContent .shopify-section div {
+  padding-top: 0;
+
+  .collection-hero__inner.page-width {
+    max-width: unset;
+  }
   .facets {
     display: none !important;
   }
 
-  .facets-vertical .product-grid-container div div #gf-controls-container {
-    display: none !important;
+  div div .header-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .collection-hero__title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 8px;
+    }
+    p {
+      font-size: 14px;
+      color: #6e6e6e;
+    }
   }
-}
 
-#gf-grid {
-  display: none !important;
-}
+  .facets-vertical.page-width {
+    max-width: unset;
+    margin: unset;
+  }
+  .facets-vertical .product-grid-container div div {
+    #gf-controls-container {
+      display: none !important;
+    }
+    .gf-filter-contents .gf-option-block {
+      padding-bottom: 0;
 
-.price-item {
-  font-size: 50px !important;
+      .gf-block-title .h3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+
+        span {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
 }
