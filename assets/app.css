@@ -99,6 +99,9 @@ footer .footer__content-bottom-wrapper .footer__copyright .footer-menu-div {
 footer .footer__content-bottom-wrapper .footer__copyright .copyright__content {
   float: left;
 }
+footer .footer__content-bottom-wrapper:nth-of-type(2) {
+  border-right: 1px solid gray;
+}
 footer .footer__content-bottom-wrapper:first-of-type {
   width: fit-content;
   display: unset;
@@ -138,10 +141,8 @@ footer .footer__content-bottom .footer-menu-div a {
   font-weight: 500;
   margin: 0 10px;
 }
-@media screen and (min-width: 750px) {
-  .page-width {
-    display: unset;
-  }
+.sel-basic.sel-disclosure-btn {
+  border: none !important;
 }
 .header__heading-link {
   position: absolute;

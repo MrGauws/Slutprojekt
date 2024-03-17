@@ -292,6 +292,9 @@
           <noscript>
             {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
               <div class="localization-form__select">
+                <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">
+                  {{ 'localization.language_label' | t }}
+                </h2>
                 <select
                   class="localization-selector link"
                   name="locale_code"
@@ -314,14 +317,7 @@
           </noscript>
 
           <localization-form>
-            {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
-              <div class="no-js-hidden">
-                <h2 class="caption-large text-body" id="FooterLanguageLabel">
-                  {{ 'localization.language_label' | t }}
-                </h2>
-                {%- render 'language-localization', localPosition: 'FooterLanguage' -%}
-              </div>
-            {%- endform -%}
+            <selector-root data-id=YX627861 id="YX627861"></selector-root>
           </localization-form>
         {%- endif -%}
       </div>
@@ -342,7 +338,8 @@
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">
       <div class="footer__copyright caption">
-        <small class="copyright__content">&copy; {{ 'now' | date: '%Y' }} | {{ shop.name | link_to: routes.root_url -}} | All Rights Reserved | United We Sweat
+        <small class="copyright__content">&copy; {{ 'now' | date: '%Y' }} | {{ shop.name | link_to: routes.root_url -}}<p></p>
+          | All Rights Reserved | United We Sweat
         </small>
         <div class="footer-menu-div">
           {% for link in linklists.footer.links %}

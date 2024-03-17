@@ -107,7 +107,9 @@ footer {
         float: left;
       }
     }
-
+    &:nth-of-type(2) {
+      border-right: 1px solid gray;
+    }
     &:first-of-type {
       width: fit-content;
       display: unset;
@@ -157,8 +159,6 @@ footer {
   }
 }
 
-@media screen and (min-width: 750px) {
-  .page-width {
-    display: unset;
-  }
+.sel-basic.sel-disclosure-btn {
+  border: none !important;
 }
