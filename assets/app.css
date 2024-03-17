@@ -154,6 +154,16 @@ footer .footer__content-bottom .footer-menu-div a {
   right: -206% !important;
   width: 1440px;
 }
+.header__icon--search span {
+  background-color: #fcfcfc;
+  width: 230px;
+  color: black;
+  justify-content: flex-start;
+  padding-left: 15px;
+}
+.header__icon.summary > span {
+  margin-left: -220px !important;
+}
 .collection__title {
   margin-left: 4.5%;
 }
