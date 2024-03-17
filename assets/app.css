@@ -94,7 +94,7 @@ footer .footer__content-bottom-wrapper .footer__copyright {
 }
 footer .footer__content-bottom-wrapper .footer__copyright .footer-menu-div {
   float: right;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 footer .footer__content-bottom-wrapper .footer__copyright .copyright__content {
   float: left;
@@ -141,8 +141,8 @@ footer .footer__content-bottom .footer-menu-div a {
   font-weight: 500;
   margin: 0 10px;
 }
-.sel-disclosure-btn {
-  gap: 5px !important;
+.sel-basic.sel-disclosure-btn {
+  border: none !important;
 }
 .header__heading-link {
   position: absolute;
@@ -152,11 +152,6 @@ footer .footer__content-bottom .footer-menu-div a {
 .header__inline-menu {
   left: 40%;
   position: absolute;
-}
-.mega-menu__content {
-  left: unset !important;
-  right: -206% !important;
-  width: 1440px;
 }
 .collection__title {
   margin-left: 4.5%;
