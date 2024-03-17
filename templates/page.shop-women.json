@@ -37,13 +37,9 @@
           }
         }
       },
-      "block_order": [
-        "heading_LLaF7k",
-        "text_JdzDrd",
-        "buttons_TE8gNj"
-      ],
+      "block_order": ["heading_LLaF7k", "text_JdzDrd", "buttons_TE8gNj"],
       "settings": {
-        "image": "shopify:\/\/shop_images\/women-hero.webp",
+        "image": "shopify://shop_images/women-hero.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -61,7 +57,7 @@
       "settings": {
         "title": "20% OFF, BIG PBS ON",
         "heading_size": "h1",
-        "description": "<p><a href=\"https:\/\/slutprojekt1.myshopify.com\/pages\/shop-women\" title=\"https:\/\/slutprojekt1.myshopify.com\/pages\/shop-women\">View All<\/a><\/p>",
+        "description": "<p><a href=\"https://slutprojekt1.myshopify.com/pages/shop-women\" title=\"https://slutprojekt1.myshopify.com/pages/shop-women\">View All</a></p>",
         "show_description": false,
         "description_style": "body",
         "collection": "seamles",
@@ -85,9 +81,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "image_banner_XWfARB",
-    "featured_collection_3h676V"
-  ]
+  "order": ["main", "image_banner_XWfARB", "featured_collection_3h676V"]
 }
