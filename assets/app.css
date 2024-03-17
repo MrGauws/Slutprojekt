@@ -358,6 +358,14 @@ h2.banner__heading.inline-richtext.h1 {
   color: #fff;
   cursor: pointer;
 }
+.collection__description.subtitle.rte a {
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-left: 1.6rem;
+}
 body {
   margin: 0;
   background: red;

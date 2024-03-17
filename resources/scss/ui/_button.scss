@@ -73,3 +73,12 @@
     color: #fff;
     cursor: pointer; 
 }
+
+.collection__description.subtitle.rte a {
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-left: 1.6rem;
+}
