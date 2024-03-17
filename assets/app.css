@@ -213,6 +213,18 @@ h2.banner__heading.inline-richtext.h1 {
 .header__menu-item .icon-caret {
   display: none;
 }
+#MainContent .shopify-section div .facets {
+  display: none !important;
+}
+#MainContent .shopify-section div .facets-vertical .product-grid-container div div #gf-controls-container {
+  display: none !important;
+}
+#gf-grid {
+  display: none !important;
+}
+.price-item {
+  font-size: 50px !important;
+}
 .collection__title {
   margin-left: 4.5%;
 }

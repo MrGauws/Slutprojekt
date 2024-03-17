@@ -1,0 +1,17 @@
+#MainContent .shopify-section div {
+  .facets {
+    display: none !important;
+  }
+
+  .facets-vertical .product-grid-container div div #gf-controls-container {
+    display: none !important;
+  }
+}
+
+#gf-grid {
+  display: none !important;
+}
+
+.price-item {
+  font-size: 50px !important;
+}
