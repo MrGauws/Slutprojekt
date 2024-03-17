@@ -28,18 +28,22 @@
         "buttons_TE8gNj": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "SHOP NOW",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Shop Now",
+            "button_label_2": "SHOP NOW",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
-      "block_order": ["heading_LLaF7k", "text_JdzDrd", "buttons_TE8gNj"],
+      "block_order": [
+        "heading_LLaF7k",
+        "text_JdzDrd",
+        "buttons_TE8gNj"
+      ],
       "settings": {
-        "image": "shopify://shop_images/women-hero.webp",
+        "image": "shopify:\/\/shop_images\/women-hero.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -57,18 +61,94 @@
       "settings": {
         "title": "20% OFF, BIG PBS ON",
         "heading_size": "h1",
-        "description": "<p><a href=\"https://slutprojekt1.myshopify.com/pages/shop-women\" title=\"https://slutprojekt1.myshopify.com/pages/shop-women\">View All</a></p>",
+        "description": "<p>WOMENS<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "seamles",
-        "products_to_show": 4,
-        "columns_desktop": 1,
+        "products_to_show": 5,
+        "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
         "color_scheme": "",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_kgLNxH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rpXftt": {
+          "type": "heading",
+          "settings": {
+            "heading": "THIS MONTH’S FRESH FITS",
+            "heading_size": "h1"
+          }
+        },
+        "text_YVzrnM": {
+          "type": "text",
+          "settings": {
+            "text": "Brand new drops, brand new reasons to go gym. You’re welcome.",
+            "text_style": "body"
+          }
+        },
+        "buttons_yd97Ue": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NEW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP NEW",
+            "button_link_2": "shopify:\/\/collections\/this-months-fressh-fits",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rpXftt",
+        "text_YVzrnM",
+        "buttons_yd97Ue"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/frsh-fits.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_fDJFT8": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>THIS MONTH’S FRESH FITS<\/strong>",
+        "heading_size": "h1",
+        "description": "<p>WOMENS<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "this-months-fressh-fits",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -79,7 +159,169 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_VM98eK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Y6pLmb": {
+          "type": "heading",
+          "settings": {
+            "heading": "NEW ADAPT ANIMAL",
+            "heading_size": "h1"
+          }
+        },
+        "text_MNmNJC": {
+          "type": "text",
+          "settings": {
+            "text": "You asked, we scrunched. The Adapt bum-scrunch is back and better than ever.",
+            "text_style": "body"
+          }
+        },
+        "buttons_B9iH3g": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP ADAPT",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP ADAPT",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y6pLmb",
+        "text_MNmNJC",
+        "buttons_B9iH3g"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_ywFapa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>NEW ADAPT SAFARI<\/strong>",
+        "heading_size": "h1",
+        "description": "<p>WOMENS<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "womens-new-adaptt-safari",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_8PbYGm": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_zqgGjW": {
+          "type": "heading",
+          "settings": {
+            "heading": "SEAMLESS-SO-SOFT, YOU’LL NEVER WANT TO TAKE IT OFF",
+            "heading_size": "h1"
+          }
+        },
+        "text_TRpMi4": {
+          "type": "text",
+          "settings": {
+            "text": "Your rest day has literally never been as comfy as Cotton Seamless.",
+            "text_style": "body"
+          }
+        },
+        "buttons_qfRMeD": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "SHOP NOW",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zqgGjW",
+        "text_TRpMi4",
+        "buttons_qfRMeD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero2.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "featured_collection_iEnNKF": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "COTTON SEAMLESS",
+        "heading_size": "h1",
+        "description": "<p>WOMENS<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "seamles",
+        "products_to_show": 5,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
-  "order": ["main", "image_banner_XWfARB", "featured_collection_3h676V"]
+  "order": [
+    "main",
+    "image_banner_XWfARB",
+    "featured_collection_3h676V",
+    "image_banner_kgLNxH",
+    "featured_collection_fDJFT8",
+    "image_banner_VM98eK",
+    "featured_collection_ywFapa",
+    "image_banner_8PbYGm",
+    "featured_collection_iEnNKF"
+  ]
 }
