@@ -300,6 +300,7 @@ h2.banner__heading.inline-richtext.h1 {
   position: absolute;
   top: -50px;
   right: 0;
+  padding-right: 6rem;
 }
 .banner__buttons {
   flex-wrap: unset !important;
@@ -335,6 +336,27 @@ h2.banner__heading.inline-richtext.h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
   font-weight: 700;
+}
+.slider-button {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in;
+}
+.slider-button.slider-button--prev {
+  background-color: #e7e7e7;
+  color: #6e6e6e;
+  cursor: auto;
+  margin-right: 15px;
+}
+.slider-button.slider-button--next {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 }
 body {
   margin: 0;
