@@ -11,7 +11,7 @@
 }
 
 .mega-menu__content {
-    left: none;
-    right: -206%;
+    left: unset !important;
+    right: -206% !important;
     width: 1440px;
 }
