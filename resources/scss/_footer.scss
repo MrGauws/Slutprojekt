@@ -101,7 +101,7 @@ footer {
       display: unset !important;
       .footer-menu-div {
         float: right;
-        margin-right: 30px;
+        margin-right: 10px;
       }
       .copyright__content {
         float: left;
@@ -159,6 +159,6 @@ footer {
   }
 }
 
-.sel-basic.sel-disclosure-btn {
-  border: none !important;
+.sel-disclosure-btn {
+  gap: 5px !important;
 }
