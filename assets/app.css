@@ -364,7 +364,7 @@ h2.banner__heading.inline-richtext.h1 {
   justify-content: space-between;
   padding: 20px 0;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3:first-child {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3:first-of-type {
   padding-top: 10px;
   margin-top: 20px;
 }
@@ -405,6 +405,16 @@ h2.banner__heading.inline-richtext.h1 {
   max-width: 20px;
   max-height: 20px;
   margin-right: 5px;
+}
+.card-wrapper {
+  position: relative;
+}
+.heart-div {
+  position: absolute;
+}
+.heart-div img {
+  width: 20px;
+  height: 20px;
 }
 .product-form__input {
   border: 1px solid lightgrey !important;

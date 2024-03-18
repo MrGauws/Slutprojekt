@@ -58,7 +58,7 @@
         justify-content: space-between;
         padding: 20px 0;
 
-        &:first-child {
+        &:first-of-type {
           padding-top: 10px;
           margin-top: 20px;
         }
@@ -107,5 +107,17 @@
       max-height: 20px;
       margin-right: 5px;
     }
+  }
+}
+
+.card-wrapper {
+  position: relative;
+}
+.heart-div {
+  position: absolute;
+
+  img {
+    width: 20px;
+    height: 20px;
   }
 }
