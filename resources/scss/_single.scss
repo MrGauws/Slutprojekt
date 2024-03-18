@@ -17,3 +17,25 @@
     background-color: black !important;
     color: white !important;  
 }
+
+.product__title h1,
+.product__title h2 {
+  font-size: 1.8rem;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 0.8rem; 
+  text-align: center;
+}
+
+.price-item.price-item--regular {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #1b1b1b;
+    line-height: 140%;
+    display: flex;
+    gap: 0.8rem;
+    text-align: center;
+  }
