@@ -421,6 +421,36 @@ h2.banner__heading.inline-richtext.h1 {
   padding: 10px !important;
   border-radius: 0.4rem !important;
 }
+@media screen and (min-width: 990px) {
+  .product:not(.product--columns) .product__media-list .product__media-item:first-child,
+  .product:not(.product--columns) .product__media-list .product__media-item--full {
+    width: unset !important;
+  }
+}
+.product-form__submit {
+  background-color: black !important;
+  color: white !important;
+}
+.product__title h1,
+.product__title h2 {
+  font-size: 1.8rem;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin: 0 0 0.8rem;
+  text-align: center;
+}
+.price-item.price-item--regular {
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #1b1b1b;
+  line-height: 140%;
+  display: flex;
+  gap: 0.8rem;
+  text-align: center;
+}
 .collection__title {
   margin-left: 4.5%;
 }
