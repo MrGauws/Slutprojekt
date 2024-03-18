@@ -306,57 +306,57 @@ h2.banner__heading.inline-richtext.h1 {
   z-index: 2;
   width: 100%;
 }
-#MainContent-collection .shopify-section div {
+#MainContent.collection-page .shopify-section div {
   padding-top: 0;
 }
-#MainContent-collection .shopify-section div .collection-hero__inner.page-width {
+#MainContent.collection-page .shopify-section div .collection-hero__inner.page-width {
   max-width: unset;
 }
-#MainContent-collection .shopify-section div .facets {
+#MainContent.collection-page .shopify-section div .facets {
   display: none !important;
 }
-#MainContent-collection .shopify-section div div div .header-holder {
+#MainContent.collection-page .shopify-section div div div .header-holder {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-#MainContent-collection .shopify-section div div div .header-holder .collection-hero__title {
+#MainContent.collection-page .shopify-section div div div .header-holder .collection-hero__title {
   font-size: 18px;
   font-weight: bold;
   margin-right: 8px;
 }
-#MainContent-collection .shopify-section div div div .header-holder p {
+#MainContent.collection-page .shopify-section div div div .header-holder p {
   font-size: 14px;
   color: #6e6e6e;
 }
-#MainContent-collection .shopify-section div .facets-vertical.page-width {
+#MainContent.collection-page .shopify-section div .facets-vertical.page-width {
   max-width: unset;
   margin: unset;
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div #gf-controls-container {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div #gf-controls-container {
   display: none !important;
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block {
   padding-bottom: 0;
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button {
   padding: 11px 16px !important;
   border-color: #e7e7e7 !important;
   margin-bottom: 20px;
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button:hover {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button:hover {
   background-color: #fff;
   border-color: gray;
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button span {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button span {
   color: rgb(81, 81, 81);
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 {
   display: flex;
   justify-content: space-between;
   padding: 20px 0 0;
 }
-#MainContent-collection .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
   font-size: 16px !important;
 }
 .collection__title {
