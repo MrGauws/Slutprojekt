@@ -161,6 +161,9 @@ footer .footer__content-bottom .footer-menu-div a {
   justify-content: flex-start;
   padding-left: 15px;
 }
+.mega-menu__link--active {
+  text-decoration: unset !important;
+}
 /*
   #MegaMenu-Content-1 {
     .mega-menu__list {
@@ -232,6 +235,9 @@ h2.banner__heading.inline-richtext.h1 {
   display: flex;
   padding: 0 4%;
 }
+.image-gallery .button {
+  position: absolute !important;
+}
 .image-item {
   flex: 1;
   position: relative;
@@ -243,7 +249,6 @@ h2.banner__heading.inline-richtext.h1 {
   height: auto;
 }
 .button {
-  position: absolute;
   bottom: 10px;
   left: 10px;
   background-color: white;
@@ -353,9 +358,6 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
   font-size: 16px !important;
 }
-.mega-menu__link--active {
-  text-decoration: unset !important;
-}
 .collection__title {
   margin-left: 4.5%;
 }
@@ -384,6 +386,9 @@ h2.banner__heading.inline-richtext.h1 {
   display: flex;
   padding: 0 4%;
 }
+.image-gallery .button {
+  position: absolute !important;
+}
 .image-item {
   flex: 1;
   position: relative;
@@ -395,7 +400,6 @@ h2.banner__heading.inline-richtext.h1 {
   height: auto;
 }
 .button {
-  position: absolute;
   bottom: 10px;
   left: 10px;
   background-color: white;

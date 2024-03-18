@@ -32,6 +32,9 @@ h2.banner__heading.inline-richtext.h1 {
 .image-gallery {
   display: flex;
   padding: 0 4%;
+  .button{
+    position: absolute !important;
+  }
 }
 
 .image-item {
@@ -47,7 +50,7 @@ h2.banner__heading.inline-richtext.h1 {
 }
 
 .button {
-  position: absolute;
+  
   bottom: 10px;
   left: 10px;
   background-color: white;
