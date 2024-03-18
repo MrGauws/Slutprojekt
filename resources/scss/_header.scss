@@ -24,6 +24,10 @@
     padding-left: 15px;
   }
 }
+
+.mega-menu__link--active {
+  text-decoration: unset !important;
+}
 /*
   #MegaMenu-Content-1 {
     .mega-menu__list {

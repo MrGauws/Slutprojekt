@@ -334,6 +334,17 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block {
   padding-bottom: 0;
 }
+#MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button {
+  padding: 11px 16px !important;
+  border-color: #e7e7e7 !important;
+}
+#MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button:hover {
+  background-color: #fff;
+  border-color: gray;
+}
+#MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button span {
+  color: rgb(81, 81, 81);
+}
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 {
   display: flex;
   justify-content: space-between;
@@ -341,6 +352,9 @@ h2.banner__heading.inline-richtext.h1 {
 }
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
   font-size: 16px !important;
+}
+.mega-menu__link--active {
+  text-decoration: unset !important;
 }
 .collection__title {
   margin-left: 4.5%;

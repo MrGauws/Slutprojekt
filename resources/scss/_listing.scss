@@ -35,6 +35,20 @@
     .gf-filter-contents .gf-option-block {
       padding-bottom: 0;
 
+      .gf-block-content .gf-scroll .gf-option-box button {
+        padding: 11px 16px !important;
+        border-color: #e7e7e7 !important;
+
+        &:hover {
+          background-color: #fff;
+          border-color: gray;
+        }
+
+        span {
+          color: rgb(81, 81, 81);
+        }
+      }
+
       .gf-block-title .h3 {
         display: flex;
         justify-content: space-between;
