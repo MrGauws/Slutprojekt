@@ -359,6 +359,11 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
   font-size: 16px !important;
 }
+.product-form__input {
+  border: 1px solid lightgrey !important;
+  padding: 10px !important;
+  border-radius: 0.4rem !important;
+}
 .collection__title {
   margin-left: 4.5%;
 }
