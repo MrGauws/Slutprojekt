@@ -417,6 +417,10 @@ h2.banner__heading.inline-richtext.h1 {
     width: unset !important;
   }
 }
+.product-form__submit {
+  background-color: black !important;
+  color: white !important;
+}
 .collection__title {
   margin-left: 4.5%;
 }
