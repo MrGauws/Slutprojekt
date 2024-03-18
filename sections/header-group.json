@@ -19,9 +19,19 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "custom_liquid_A4xFpc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"rotating-container\">\n  <a><p>22% student discount<\/p><\/a>\n  <a><p>free 30 days return policy<\/p><\/a>\n  <a><p>a little sale to spot you on eveything through your next session. use code 20-off<\/p><\/a>\n<a><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/delivery.png?v=1710765451\" alt=\"truck\" ><p>free standard delivery when you spend 450SEK<\/p><\/a>\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "custom_liquid_A4xFpc"
   ]
 }
