@@ -342,6 +342,7 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button {
   padding: 11px 16px !important;
   border-color: #e7e7e7 !important;
+  margin-bottom: 20px;
 }
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button:hover {
   background-color: #fff;
@@ -353,7 +354,7 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
   font-size: 16px !important;
