@@ -1,89 +1,98 @@
 .slider-buttons {
-    position: absolute; 
-    top: -50px; 
-    right: 0;
-    padding-right: 6rem;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  padding-right: 6rem;
 }
 
 .banner__buttons {
-    flex-wrap: unset !important;
+  flex-wrap: unset !important;
 }
 
-
-.button:after, 
-.shopify-challenge__button:after, 
-.customer button:after, 
+.button:after,
+.shopify-challenge__button:after,
+.customer button:after,
 .shopify-payment-button__button--unbranded:after {
-    content: none;
+  content: none;
 }
 
-.button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
-    color: white;
-    font-weight: bold;
+.button:disabled,
+.button[aria-disabled="true"],
+.button.disabled,
+.customer button:disabled,
+.customer button[aria-disabled="true"],
+.customer button.disabled,
+.quantity__button.disabled {
+  color: white;
+  font-weight: bold;
 }
 
-.banner__box>*+.banner__buttons {
-    margin-right: 28%;
+.banner__box > * + .banner__buttons {
+  margin-right: 28%;
 }
 
 .banner--content-align-center .banner__buttons--multiple > * {
-    border-radius: 5.6rem !important;
-  }
-
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
-    background-color: #53565a;
-    border-radius: 5.6rem !important;
-
-  }
-
-.image-gallery .button {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    border-radius: 5.6rem;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-weight: 700;
+  border-radius: 5.6rem !important;
 }
 
+.button:before,
+.shopify-challenge__button:before,
+.customer button:before,
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button [role="button"]:before,
+.cart__dynamic-checkout-buttons [role="button"]:before {
+  background-color: #53565a;
+  border-radius: 5.6rem !important;
+}
+
+.image-gallery .button {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 5.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
 
 .slider-button {
-    width: 30px !important;
-    height: 30px !important;
-    border-radius: 50%;
-    font-size: 1.3rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    transition: background-color .2s ease-in;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s ease-in;
 }
 
 .slider-button.slider-button--prev {
-    background-color: #e7e7e7;
-    color: #6e6e6e;
-    cursor: auto; 
-    margin-right: 15px;
+  background-color: #e7e7e7;
+  color: #6e6e6e;
+  cursor: auto;
+  margin-right: 15px;
 }
 
 .slider-button.slider-button--next {
-    background-color: #000;
-    color: #fff;
-    cursor: pointer; 
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 }
 
 .collection__description.subtitle.rte a {
-    font-weight: 700;
-    text-transform: capitalize;
-    text-decoration: underline;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-    margin-left: 1.6rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-left: 1.6rem;
 }
 
-
-.collection.section-template--22290662097201__featured_collection_PEqTH7-padding .quick-add .button {
-    display: none;
-  }
+.collection.section-template--22290662097201__featured_collection_PEqTH7-padding
+  .quick-add
+  .button {
+  display: none;
+}

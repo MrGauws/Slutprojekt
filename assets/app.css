@@ -173,15 +173,21 @@ footer .footer__content-bottom .footer-menu-div a {
     }
 
     .mega-menu__link--level-2 {
+
         width: 100%;
+
     }
 
     #HeaderMenu-women-offers {
+
         grid-area: offers;
+
     }
 
     #HeaderMenu-women-womens-sale {
+
         grid-area: womens-sale;
+
     }
 
     #HeaderMenu-women-trending {
@@ -194,6 +200,7 @@ footer .footer__content-bottom .footer-menu-div a {
 
     #HeaderMenu-women-collections {
         grid-area: collections;
+
     }
 }
 */
@@ -228,7 +235,8 @@ h2.banner__heading.inline-richtext.h1 {
 .image-item {
   flex: 1;
   position: relative;
-  margin-right: 10px; /* Justera mellanrummet mellan bilderna */
+  margin-right: 10px;
+  /* Justera mellanrummet mellan bilderna */
 }
 .image-item img {
   width: 100%;
@@ -251,7 +259,12 @@ h2.banner__heading.inline-richtext.h1 {
   border-radius: 5.6rem !important;
   font-weight: 700;
 }
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+.button:before,
+.shopify-challenge__button:before,
+.customer button:before,
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button [role=button]:before,
+.cart__dynamic-checkout-buttons [role=button]:before {
   background-color: unset !important;
   border-radius: unset !important;
 }
@@ -360,7 +373,8 @@ h2.banner__heading.inline-richtext.h1 {
 .image-item {
   flex: 1;
   position: relative;
-  margin-right: 10px; /* Justera mellanrummet mellan bilderna */
+  margin-right: 10px;
+  /* Justera mellanrummet mellan bilderna */
 }
 .image-item img {
   width: 100%;
@@ -383,7 +397,12 @@ h2.banner__heading.inline-richtext.h1 {
   border-radius: 5.6rem !important;
   font-weight: 700;
 }
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+.button:before,
+.shopify-challenge__button:before,
+.customer button:before,
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button [role=button]:before,
+.cart__dynamic-checkout-buttons [role=button]:before {
   background-color: unset !important;
   border-radius: unset !important;
 }
@@ -435,7 +454,13 @@ h2.banner__heading.inline-richtext.h1 {
 .shopify-payment-button__button--unbranded:after {
   content: none;
 }
-.button:disabled, .button[aria-disabled=true], .button.disabled, .customer button:disabled, .customer button[aria-disabled=true], .customer button.disabled, .quantity__button.disabled {
+.button:disabled,
+.button[aria-disabled=true],
+.button.disabled,
+.customer button:disabled,
+.customer button[aria-disabled=true],
+.customer button.disabled,
+.quantity__button.disabled {
   color: white;
   font-weight: bold;
 }
@@ -445,7 +470,12 @@ h2.banner__heading.inline-richtext.h1 {
 .banner--content-align-center .banner__buttons--multiple > * {
   border-radius: 5.6rem !important;
 }
-.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+.button:before,
+.shopify-challenge__button:before,
+.customer button:before,
+.shopify-payment-button__button--unbranded:before,
+.shopify-payment-button [role=button]:before,
+.cart__dynamic-checkout-buttons [role=button]:before {
   background-color: #53565a;
   border-radius: 5.6rem !important;
 }

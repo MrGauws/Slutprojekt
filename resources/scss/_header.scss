@@ -1,33 +1,29 @@
 .header__heading-link {
-    position: absolute;
-    left: 4%;
-    top: 15%;
+  position: absolute;
+  left: 4%;
+  top: 15%;
 }
 
-
-.header__inline-menu{
-    left: 40%;
-    position: absolute;
+.header__inline-menu {
+  left: 40%;
+  position: absolute;
 }
 
 .mega-menu__content {
-    left: unset !important;
-    right: -206% !important;
-    width: 1440px;
+  left: unset !important;
+  right: -206% !important;
+  width: 1440px;
 }
 
-
 .header__icon--search {
-    span {
-      background-color: #fcfcfc;
-      width: 230px;
-      color: black;
-      justify-content: flex-start; 
-      padding-left: 15px;
-      
-    }
+  span {
+    background-color: #fcfcfc;
+    width: 230px;
+    color: black;
+    justify-content: flex-start;
+    padding-left: 15px;
   }
-
+}
 /*
   #MegaMenu-Content-1 {
     .mega-menu__list {
@@ -40,15 +36,21 @@
     }
 
     .mega-menu__link--level-2 {
+
         width: 100%;
+
     }
 
     #HeaderMenu-women-offers {
+
         grid-area: offers;
+
     }
 
     #HeaderMenu-women-womens-sale {
+
         grid-area: womens-sale;
+
     }
 
     #HeaderMenu-women-trending {
@@ -61,6 +63,7 @@
 
     #HeaderMenu-women-collections {
         grid-area: collections;
+
     }
 }
 */
