@@ -14,37 +14,73 @@
   text-transform: uppercase;
   font-size: 16px;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .menu-div {
   display: flex;
   flex-direction: row;
   gap: 4rem;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .menu-div
+  div {
   display: flex;
   flex-direction: column;
   justify-content: unset;
   border: none;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div h5 {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .menu-div
+  div
+  h5 {
   margin: 0 0 15px;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div a {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .menu-div
+  div
+  a {
   text-decoration: 0;
   color: #53565a;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .more-about-div {
   display: flex;
   flex-direction: column;
   justify-content: unset;
   border: none;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div div {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .more-about-div
+  div {
   gap: 10px;
   padding: 0;
   display: flex;
   flex-direction: row;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div div .more-holder {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .more-about-div
+  div
+  .more-holder {
   display: flex;
   flex-direction: column;
   width: 15vw;
@@ -52,7 +88,14 @@
   justify-content: unset;
   padding: 0;
 }
-.shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .more-about-div div .more-holder h5 {
+.shopify-section-group-footer-group
+  .color-scheme-1
+  div
+  .footer-outer-div
+  .more-about-div
+  div
+  .more-holder
+  h5 {
   width: 100%;
   padding: 7px 10px;
   text-transform: uppercase;
@@ -256,10 +299,17 @@ h2.banner__heading.inline-richtext.h1 {
   padding: 10px 20px;
   text-decoration: none;
 }
-#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
+#MainContent
+  #Banner-template--22290662097201__image_banner
+  .banner__content
+  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
   margin-right: 35%;
 }
-#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient .button {
+#MainContent
+  #Banner-template--22290662097201__image_banner
+  .banner__content
+  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient
+  .button {
   position: unset;
   border-radius: 5.6rem !important;
   font-weight: 700;
@@ -268,23 +318,37 @@ h2.banner__heading.inline-richtext.h1 {
 .shopify-challenge__button:before,
 .customer button:before,
 .shopify-payment-button__button--unbranded:before,
-.shopify-payment-button [role=button]:before,
-.cart__dynamic-checkout-buttons [role=button]:before {
+.shopify-payment-button [role="button"]:before,
+.cart__dynamic-checkout-buttons [role="button"]:before {
   background-color: unset !important;
   border-radius: unset !important;
 }
-#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
+#MainContent
+  #Banner-template--22290662097201__image_banner_Lfcfa6
+  .banner__content
+  .banner__box {
   margin-left: 37%;
 }
-#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
+#MainContent
+  #Banner-template--22290662097201__image_banner_Lfcfa6
+  .banner__content
+  .banner__box
+  .button {
   position: unset;
   border-radius: 5.6rem !important;
   font-weight: 700;
 }
-#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+#MainContent
+  #Banner-template--22290662097201__image_banner_jyUqDy
+  .banner__content
+  .banner__box {
   margin-right: 40%;
 }
-#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
+#MainContent
+  #Banner-template--22290662097201__image_banner_jyUqDy
+  .banner__content
+  .banner__box
+  .button {
   border-radius: 5.6rem !important;
   font-weight: 700;
   width: 164px;
@@ -309,7 +373,10 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent.collection-page .shopify-section div {
   padding-top: 0;
 }
-#MainContent.collection-page .shopify-section div .collection-hero__inner.page-width {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .collection-hero__inner.page-width {
   max-width: unset;
 }
 #MainContent.collection-page .shopify-section div .facets {
@@ -320,7 +387,13 @@ h2.banner__heading.inline-richtext.h1 {
   flex-direction: row;
   align-items: center;
 }
-#MainContent.collection-page .shopify-section div div div .header-holder .collection-hero__title {
+#MainContent.collection-page
+  .shopify-section
+  div
+  div
+  div
+  .header-holder
+  .collection-hero__title {
   font-size: 18px;
   font-weight: bold;
   margin-right: 8px;
@@ -333,31 +406,109 @@ h2.banner__heading.inline-richtext.h1 {
   max-width: unset;
   margin: unset;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div #gf-controls-container {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  #gf-controls-container {
   display: none !important;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  .gf-filter-contents
+  .gf-option-block {
   padding-bottom: 0;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  .gf-filter-contents
+  .gf-option-block
+  .gf-block-content
+  .gf-scroll
+  .gf-option-box
+  button {
   padding: 11px 16px !important;
   border-color: #e7e7e7 !important;
   margin-bottom: 20px;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button:hover {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  .gf-filter-contents
+  .gf-option-block
+  .gf-block-content
+  .gf-scroll
+  .gf-option-box
+  button:hover {
   background-color: #fff;
   border-color: gray;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button span {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  .gf-filter-contents
+  .gf-option-block
+  .gf-block-content
+  .gf-scroll
+  .gf-option-box
+  button
+  span {
   color: rgb(81, 81, 81);
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  .gf-filter-contents
+  .gf-option-block
+  .gf-block-title
+  .h3 {
   display: flex;
   justify-content: space-between;
   padding: 20px 0 0;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
+#MainContent.collection-page
+  .shopify-section
+  div
+  .facets-vertical
+  .product-grid-container
+  div
+  div
+  .gf-filter-contents
+  .gf-option-block
+  .gf-block-title
+  .h3
+  span {
   font-size: 16px !important;
+}
+.product-form__input {
+  border: 1px solid lightgrey !important;
+  padding: 10px !important;
+  border-radius: 0.4rem !important;
 }
 .shopify-section-group-header-group div div {
   padding: 0;
@@ -440,10 +591,17 @@ h2.banner__heading.inline-richtext.h1 {
   padding: 10px 20px;
   text-decoration: none;
 }
-#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
+#MainContent
+  #Banner-template--22290662097201__image_banner
+  .banner__content
+  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
   margin-right: 35%;
 }
-#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient .button {
+#MainContent
+  #Banner-template--22290662097201__image_banner
+  .banner__content
+  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient
+  .button {
   position: unset;
   border-radius: 5.6rem !important;
   font-weight: 700;
@@ -452,23 +610,37 @@ h2.banner__heading.inline-richtext.h1 {
 .shopify-challenge__button:before,
 .customer button:before,
 .shopify-payment-button__button--unbranded:before,
-.shopify-payment-button [role=button]:before,
-.cart__dynamic-checkout-buttons [role=button]:before {
+.shopify-payment-button [role="button"]:before,
+.cart__dynamic-checkout-buttons [role="button"]:before {
   background-color: unset !important;
   border-radius: unset !important;
 }
-#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
+#MainContent
+  #Banner-template--22290662097201__image_banner_Lfcfa6
+  .banner__content
+  .banner__box {
   margin-left: 37%;
 }
-#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
+#MainContent
+  #Banner-template--22290662097201__image_banner_Lfcfa6
+  .banner__content
+  .banner__box
+  .button {
   position: unset;
   border-radius: 5.6rem !important;
   font-weight: 700;
 }
-#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+#MainContent
+  #Banner-template--22290662097201__image_banner_jyUqDy
+  .banner__content
+  .banner__box {
   margin-right: 40%;
 }
-#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
+#MainContent
+  #Banner-template--22290662097201__image_banner_jyUqDy
+  .banner__content
+  .banner__box
+  .button {
   border-radius: 5.6rem !important;
   font-weight: 700;
   width: 164px;
@@ -506,10 +678,10 @@ h2.banner__heading.inline-richtext.h1 {
   content: none;
 }
 .button:disabled,
-.button[aria-disabled=true],
+.button[aria-disabled="true"],
 .button.disabled,
 .customer button:disabled,
-.customer button[aria-disabled=true],
+.customer button[aria-disabled="true"],
 .customer button.disabled,
 .quantity__button.disabled {
   color: white;
@@ -525,8 +697,8 @@ h2.banner__heading.inline-richtext.h1 {
 .shopify-challenge__button:before,
 .customer button:before,
 .shopify-payment-button__button--unbranded:before,
-.shopify-payment-button [role=button]:before,
-.cart__dynamic-checkout-buttons [role=button]:before {
+.shopify-payment-button [role="button"]:before,
+.cart__dynamic-checkout-buttons [role="button"]:before {
   background-color: #53565a;
   border-radius: 5.6rem !important;
 }
@@ -571,7 +743,9 @@ h2.banner__heading.inline-richtext.h1 {
   line-height: 2.4rem;
   margin-left: 1.6rem;
 }
-.collection.section-template--22290662097201__featured_collection_PEqTH7-padding .quick-add .button {
+.collection.section-template--22290662097201__featured_collection_PEqTH7-padding
+  .quick-add
+  .button {
   display: none;
 }
 body {
