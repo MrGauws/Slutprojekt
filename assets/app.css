@@ -161,6 +161,42 @@ footer .footer__content-bottom .footer-menu-div a {
   justify-content: flex-start;
   padding-left: 15px;
 }
+/*
+  #MegaMenu-Content-1 {
+    .mega-menu__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        grid-template-areas: 
+            "offers trending products"
+            "womens-sale trending collections";
+    }
+
+    .mega-menu__link--level-2 {
+        width: 100%;
+    }
+
+    #HeaderMenu-women-offers {
+        grid-area: offers;
+    }
+
+    #HeaderMenu-women-womens-sale {
+        grid-area: womens-sale;
+    }
+
+    #HeaderMenu-women-trending {
+        grid-area: trending;
+    }
+
+    #HeaderMenu-women-products {
+        grid-area: products;
+    }
+
+    #HeaderMenu-women-collections {
+        grid-area: collections;
+    }
+}
+*/
 .collection__title {
   margin-left: 4.5%;
 }
@@ -210,11 +246,31 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
   margin-right: 35%;
 }
+#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient .button {
+  position: unset;
+  border-radius: 5.6rem !important;
+  font-weight: 700;
+}
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+  background-color: unset !important;
+  border-radius: unset !important;
+}
 #MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
   margin-left: 37%;
 }
+#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
+  position: unset;
+  border-radius: 5.6rem !important;
+  font-weight: 700;
+}
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
   margin-right: 40%;
+}
+#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
+  border-radius: 5.6rem !important;
+  font-weight: 700;
+  width: 164px;
+  margin-left: 20px;
 }
 .header__menu-item .icon-caret {
   display: none;
@@ -272,17 +328,6 @@ h2.banner__heading.inline-richtext.h1 {
 }
 #MainContent .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 span {
   font-size: 16px !important;
-#MainContent .shopify-section div .facets {
-  display: none !important;
-}
-#MainContent .shopify-section div .facets-vertical .product-grid-container div div #gf-controls-container {
-  display: none !important;
-}
-#gf-grid {
-  display: none !important;
-}
-.price-item {
-  font-size: 50px !important;
 }
 .collection__title {
   margin-left: 4.5%;
@@ -333,11 +378,31 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
   margin-right: 35%;
 }
+#MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient .button {
+  position: unset;
+  border-radius: 5.6rem !important;
+  font-weight: 700;
+}
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+  background-color: unset !important;
+  border-radius: unset !important;
+}
 #MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
   margin-left: 37%;
 }
+#MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
+  position: unset;
+  border-radius: 5.6rem !important;
+  font-weight: 700;
+}
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
   margin-right: 40%;
+}
+#MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
+  border-radius: 5.6rem !important;
+  font-weight: 700;
+  width: 164px;
+  margin-left: 20px;
 }
 .header__menu-item .icon-caret {
   display: none;
@@ -425,8 +490,10 @@ h2.banner__heading.inline-richtext.h1 {
   line-height: 2.4rem;
   margin-left: 1.6rem;
 }
+.collection.section-template--22290662097201__featured_collection_PEqTH7-padding .quick-add .button {
+  display: none;
+}
 body {
   margin: 0;
   background: red;
-}
 }

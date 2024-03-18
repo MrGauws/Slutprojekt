@@ -64,6 +64,17 @@ h2.banner__heading.inline-richtext.h1{
 
 #MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
   margin-right: 35%;
+  .button{
+    position: unset;
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+  }
+}
+
+
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .shopify-payment-button [role=button]:before, .cart__dynamic-checkout-buttons [role=button]:before {
+  background-color: unset !important;
+  border-radius: unset !important;
 }
 
 #MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box h2.banner__heading strong {
@@ -73,10 +84,21 @@ h2.banner__heading.inline-richtext.h1{
 
 #MainContent #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
   margin-left: 37%;
+  .button{
+    position: unset;
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+  }
 }
 
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
   margin-right: 40%;
+  .button{
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+    width: 164px;
+    margin-left: 20px;
+  }
 }
 
 .header__menu-item .icon-caret {
