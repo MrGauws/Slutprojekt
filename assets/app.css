@@ -437,12 +437,6 @@ variant-swatch-king {
   position: relative;
   height: fit-content;
 }
-.heart-div {
-  position: absolute;
-}
-.heart-div img {
-  width: 20px;
-  height: 20px;
 .card__information {
   position: relative;
   bottom: 0;
