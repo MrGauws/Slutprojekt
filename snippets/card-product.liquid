@@ -38,15 +38,19 @@ Usage:
   <div
     class="card-wrapper product-card-wrapper underline-links-hover">
     <div
+      class="heart-div"><img
+        src="https://cdn.shopify.com/s/files/1/0866/9747/6401/files/heartoutline.webp?v=1710797022"
+        alt="heart"></div>
+    <div
       class="
-                card card--{{ settings.card_style }}
-                {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
-                {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
-                {% if image_shape and image_shape != 'default' %} card--shape{% endif %}
-                {% if extend_height %} card--extend-height{% endif %}
-                {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
-                {% if horizontal_class %} card--horizontal{% endif %}
-              "
+                                card card--{{ settings.card_style }}
+                                {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
+                                {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
+                                {% if image_shape and image_shape != 'default' %} card--shape{% endif %}
+                                {% if extend_height %} card--extend-height{% endif %}
+                                {% if card_product.featured_media == nil and settings.card_style == 'card' %} ratio{% endif %}
+                                {% if horizontal_class %} card--horizontal{% endif %}
+                              "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
       <div
         class="card__inner {% if settings.card_style == 'standard' %}color-{{ settings.card_color_scheme }} gradient{% endif %}{% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
@@ -71,7 +75,7 @@ Usage:
               {%- if card_product.featured_media.width >= 1066 -%}
                 {{ card_product.featured_media | image_url: width: 1066 }} 1066w,{%- endif -%}
               {{ card_product.featured_media | image_url }} {{ card_product.featured_media.width }}w
-                              "
+                                                          "
               src="{{ card_product.featured_media | image_url: width: 533 }}"
               sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
               alt="{{ card_product.featured_media.alt | escape }}"
@@ -99,7 +103,7 @@ Usage:
                 {%- if card_product.media[1].width >= 1066 -%}
                   {{ card_product.media[1] | image_url: width: 1066 }} 1066w,{%- endif -%}
                 {{ card_product.media[1] | image_url }} {{ card_product.media[1].width }}w
-                                  "
+                                                                  "
                 src="{{ card_product.media[1] | image_url: width: 533 }}"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
                 alt=""
@@ -356,12 +360,16 @@ Usage:
   <div
     class="card-wrapper product-card-wrapper underline-links-hover">
     <div
+      class="heart-div"><img
+        src="https://cdn.shopify.com/s/files/1/0866/9747/6401/files/heartoutline.webp?v=1710797022"
+        alt="heart"></div>
+    <div
       class="
-                card card--{{ settings.card_style }}
-                {% if extend_height %} card--extend-height{% endif %}
-                {% if image_shape and image_shape != 'default' %} card--shape{% endif %}
-                {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
-              "
+                                card card--{{ settings.card_style }}
+                                {% if extend_height %} card--extend-height{% endif %}
+                                {% if image_shape and image_shape != 'default' %} card--shape{% endif %}
+                                {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
+                              "
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
       <div
         class="card__inner{% if settings.card_style == 'standard' %} color-{{ settings.card_color_scheme }} gradient{% endif %} ratio">

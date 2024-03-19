@@ -411,6 +411,11 @@ h2.banner__heading.inline-richtext.h1 {
 }
 .heart-div {
   position: absolute;
+  z-index: 1000000000;
+}
+.heart-div::after {
+  position: absolute;
+  z-index: 1000000000;
 }
 .heart-div img {
   width: 20px;
