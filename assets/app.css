@@ -224,6 +224,9 @@ footer .footer__content-bottom .footer-menu-div a {
 .header__icon--account {
   margin-left: 200px;
 }
+.header__icon.header__icon--account {
+  margin-left: 200px;
+}
 .collection__title {
   margin-left: 4.5%;
 }
