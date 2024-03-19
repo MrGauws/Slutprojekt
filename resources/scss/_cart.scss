@@ -41,9 +41,13 @@
     right: 10%;
     position: absolute;
     margin-top: 129px;
+    background-color: #cecece;
+    border-radius: 0.4rem;
   }
 
   .collapsible-content-wrapper-narrow {
     width: 50%; 
     float: right; 
+    margin-top: 111px !important;
+    width: 36%;
   }
