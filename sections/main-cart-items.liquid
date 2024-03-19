@@ -5,17 +5,44 @@
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 {{ 'quantity-popover.css' | asset_url | stylesheet_tag }}
 
-{% assign shipping_value = 100000 %}
-{% assign cart_total = cart.total_price %}
-{% assign shipping_value_left = shipping_value | minus: cart_total %}
+<div class="skeppnings-container">
+  <p class="shipping-savings-message">
+    {% assign shipping_value = 100000 %}
+    {% assign cart_total = cart.total_price %}
+    {% assign shipping_value_left = shipping_value | minus: cart_total %}
+    {% assign percentage_complete = shipping_value_left | times: 100 | divided_by: shipping_value %}
+    {% if shipping_value_left > 0 %}
+      You're {{ shipping_value_left | money }} away from Free Standard Shipping
+    {% else %}
+      You've got free shipping!
+    {% endif %}
+  </p>
 
-<p class="shipping-savings-message">
-  {% if shipping_value_left > 0 %}
-  You are {{ shipping_value_left | money }} away from free shipping!  <a href="/collections/all">Continue shopping</a> to add more products to your cart and receive free shipping for orders over $75.
-  {% else %}
-    You've got free shipping!
-  {% endif %}
-</p>
+  <progress id="shipping-progress" value="{{ percentage_complete }}" max="100"></progress>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var shipping_value = 100000;
+    var progressBar = document.getElementById('shipping-progress');
+    var cartTotal = {{ cart.total_price | json }};
+    var shippingValueLeft = shipping_value - cartTotal;
+    var percentageComplete = Math.max(0, Math.min(100, Math.round((1 - shippingValueLeft / shipping_value) * 100))));
+    
+    progressBar.value = percentageComplete;
+    progressBar.style.width = percentageComplete + '%';
+  });
+
+  document.addEventListener("cart:updated", function() {
+    var shipping_value = 100000;
+    var progressBar = document.getElementById('shipping-progress');
+    var cartTotal = {{ cart.total_price | json }};
+    var shippingValueLeft = shipping_value - cartTotal;
+    var percentageComplete = Math.max(0, Math.min(100, Math.round((1 - shippingValueLeft / shipping_value) * 100))));
+    
+    progressBar.value = percentageComplete;
+    progressBar.style.width = percentageComplete + '%';
+  });
+</script>
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
