@@ -12,6 +12,11 @@
 .skeppnings-container .shipping-savings-message {
   margin-bottom: 10px;
 }
+#main-cart-footer .cart__checkout-button {
+  background-color: #007db5;
+  color: white;
+  border-radius: 5.6rem;
+}
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
   flex-direction: row;
