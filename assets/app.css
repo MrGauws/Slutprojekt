@@ -344,6 +344,16 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div #gf-controls-container {
   display: none !important;
 }
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-grid ul .grid__item .card-wrapper .card {
+  position: relative;
+}
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-grid ul .grid__item .card-wrapper .card variant-swatch-king {
+  position: absolute;
+  top: 25%;
+}
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-grid ul .grid__item .card-wrapper .card .card__content div .card__heading {
+  margin-top: 10px;
+}
 #MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block {
   padding-bottom: 0;
 }
@@ -407,7 +417,25 @@ h2.banner__heading.inline-richtext.h1 {
   margin-right: 5px;
 }
 .card-wrapper {
+  overflow-x: hidden;
+}
+variant-swatch-king {
+  position: absolute;
+  bottom: 5.4rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: whitesmoke;
+  transition: transform 0.25s ease;
+  transform: translateY(100%);
+}
+.card-wrapper .card:hover variant-swatch-king {
+  transform: translateY(0);
+  transition-delay: 1s;
+}
+.card__content {
   position: relative;
+  height: fit-content;
 }
 .heart-div {
   position: absolute;
@@ -415,6 +443,12 @@ h2.banner__heading.inline-richtext.h1 {
 .heart-div img {
   width: 20px;
   height: 20px;
+.card__information {
+  position: relative;
+  bottom: 0;
+  z-index: 2;
+  background: #fff;
+  width: 100%;
 }
 .product-form__input {
   border: 1px solid lightgrey !important;
