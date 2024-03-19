@@ -17,6 +17,27 @@
   color: white;
   border-radius: 5.6rem;
 }
+.icon-row img {
+  height: 24px;
+  width: 24px;
+}
+.cart__footer {
+  float: right;
+  width: 50%;
+}
+.cart__items {
+  width: 50%;
+  float: left;
+}
+.custom-block {
+  right: 10%;
+  position: absolute;
+  margin-top: 129px;
+}
+.collapsible-content-wrapper-narrow {
+  width: 50%;
+  float: right;
+}
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
   flex-direction: row;
