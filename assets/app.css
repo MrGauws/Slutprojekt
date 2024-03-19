@@ -398,16 +398,16 @@ h2.banner__heading.inline-richtext.h1 {
 #MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block {
   padding-bottom: 0;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box .gf-box-rectangle button {
   padding: 11px 16px !important;
   border-color: #e7e7e7 !important;
   margin-bottom: 20px;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button:hover {
-  background-color: #fff;
-  border-color: gray;
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box .gf-box-rectangle button:hover {
+  background-color: #fff !important;
+  border-color: gray !important;
 }
-#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box button span {
+#MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-content .gf-scroll .gf-option-box .gf-box-rectangle button span {
   color: rgb(81, 81, 81);
 }
 #MainContent.collection-page .shopify-section div .facets-vertical .product-grid-container div div .gf-filter-contents .gf-option-block .gf-block-title .h3 {
@@ -458,32 +458,62 @@ h2.banner__heading.inline-richtext.h1 {
   margin-right: 5px;
 }
 .card-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 variant-swatch-king {
   position: absolute;
-  bottom: 5.4rem;
+  bottom: 6.2rem;
   left: 0;
   right: 0;
   margin: auto;
   background-color: whitesmoke;
   transition: transform 0.25s ease;
   transform: translateY(100%);
+  padding: 15px 30px;
 }
-.card-wrapper .card:hover variant-swatch-king {
+variant-swatch-king .swatches div div div fieldset {
+  display: flex;
+  justify-content: center;
+}
+variant-swatch-king .swatches div div div fieldset ul {
+  width: fit-content;
+}
+variant-swatch-king .swatches div div div fieldset ul li div {
+  min-width: unset !important;
+}
+variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-title-text {
+  padding: 15px 0 !important;
+  width: 30px !important;
+  display: flex !important;
+  justify-content: center;
+  margin: 0 auto !important;
+}
+variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-title-text span {
+  font-size: 13px;
+  font-weight: 500;
+  margin: auto;
+}
+.card:hover variant-swatch-king {
   transform: translateY(0);
   transition-delay: 1s;
 }
 .card__content {
   position: relative;
   height: fit-content;
+  z-index: 2;
+  background-color: #fff;
 }
 .card__information {
-  position: relative;
-  bottom: 0;
-  z-index: 2;
-  background: #fff;
+  padding-top: 20px;
+  margin-top: 10px;
   width: 100%;
+}
+.card__information h3.card__heading {
+  line-height: 20px;
+  font-size: 14px;
+}
+.card__information h3.card__heading a:hover {
+  text-decoration: none;
 }
 .product-form__input {
   border: 1px solid lightgrey !important;

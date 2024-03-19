@@ -50,14 +50,14 @@
     .gf-filter-contents .gf-option-block {
       padding-bottom: 0;
 
-      .gf-block-content .gf-scroll .gf-option-box button {
+      .gf-block-content .gf-scroll .gf-option-box .gf-box-rectangle button {
         padding: 11px 16px !important;
         border-color: #e7e7e7 !important;
         margin-bottom: 20px;
 
         &:hover {
-          background-color: #fff;
-          border-color: gray;
+          background-color: #fff !important;
+          border-color: gray !important;
         }
 
         span {
@@ -123,21 +123,46 @@
 }
 
 .card-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 variant-swatch-king {
   position: absolute;
-  bottom: 5.4rem;
+  bottom: 6.2rem;
   left: 0;
   right: 0;
   margin: auto;
   background-color: whitesmoke;
   transition: transform 0.25s ease;
   transform: translateY(100%);
+  padding: 15px 30px;
+
+  .swatches div div div fieldset {
+    display: flex;
+    justify-content: center;
+    ul {
+      width: fit-content;
+      li div {
+        min-width: unset !important;
+        .swatch-button-title-text {
+          padding: 15px 0 !important;
+          width: 30px !important;
+          display: flex !important;
+          justify-content: center;
+          margin: 0 auto !important;
+
+          span {
+            font-size: 13px;
+            font-weight: 500;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
 }
 
-.card-wrapper .card:hover variant-swatch-king {
+.card:hover variant-swatch-king {
   transform: translateY(0);
   transition-delay: 1s;
 }
@@ -145,12 +170,20 @@ variant-swatch-king {
 .card__content {
   position: relative;
   height: fit-content;
+  z-index: 2;
+  background-color: #fff;
 }
 
 .card__information {
-  position: relative;
-  bottom: 0;
-  z-index: 2;
-  background: #fff;
+  padding-top: 20px;
+  margin-top: 10px;
   width: 100%;
+
+  h3.card__heading {
+    line-height: 20px;
+    font-size: 14px;
+    a:hover {
+      text-decoration: none;
+    }
+  }
 }
