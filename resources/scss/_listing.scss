@@ -179,11 +179,44 @@ variant-swatch-king {
   margin-top: 10px;
   width: 100%;
 
+  .card-information .price--on-sale {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    div .price__sale .price-item--sale.price-item--last {
+      color: red;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
+
   h3.card__heading {
     line-height: 20px;
     font-size: 14px;
     a:hover {
       text-decoration: none;
     }
+  }
+}
+
+.card__inner .card__content {
+  position: absolute !important;
+  background-image: url("https://cdn.shopify.com/s/files/1/0866/9747/6401/files/heartoutline.webp?v=1710797022");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 30px;
+  min-height: 30px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 10px;
+  right: 0;
+}
+
+.card__badge {
+  span {
+    position: absolute !important;
+    bottom: 0;
+    right: 0;
   }
 }
