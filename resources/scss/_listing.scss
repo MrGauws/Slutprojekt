@@ -35,6 +35,18 @@
     #gf-controls-container {
       display: none !important;
     }
+
+    .gf-grid ul .grid__item .card-wrapper .card {
+      position: relative;
+
+      variant-swatch-king {
+        position: absolute;
+        top: 25%;
+      }
+      .card__content div .card__heading {
+        margin-top: 10px;
+      }
+    }
     .gf-filter-contents .gf-option-block {
       padding-bottom: 0;
 
@@ -111,13 +123,34 @@
 }
 
 .card-wrapper {
-  position: relative;
+  overflow-x: hidden;
 }
-.heart-div {
-  position: absolute;
 
-  img {
-    width: 20px;
-    height: 20px;
-  }
+variant-swatch-king {
+  position: absolute;
+  bottom: 5.4rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: whitesmoke;
+  transition: transform 0.25s ease;
+  transform: translateY(100%);
+}
+
+.card-wrapper .card:hover variant-swatch-king {
+  transform: translateY(0);
+  transition-delay: 1s;
+}
+
+.card__content {
+  position: relative;
+  height: fit-content;
+}
+
+.card__information {
+  position: relative;
+  bottom: 0;
+  z-index: 2;
+  background: #fff;
+  width: 100%;
 }
