@@ -587,31 +587,46 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   gap: 0.8rem;
   text-align: center;
 }
-.price__regular .price-item--regular {
-  margin-left: 145px !important;
-}
 .product-form__submit {
   border-radius: 5.6rem;
 }
 #MainContent.product-page variant-swatch-king {
   background-color: white !important;
+  margin-bottom: -150px;
 }
 #MainContent.product-page {
   margin-left: -23%;
 }
 #MainContent.product-page .product-form__submit {
-  top: 278px;
+  top: 318px;
+  margin-left: 20px;
 }
 #MainContent.product-page #swatch-option1 {
-  margin-left: 7%;
+  margin-left: 14%;
+  bottom: -12%;
+  position: absolute;
 }
 #MainContent.product-page #swatch-option2 {
-  bottom: 85%;
+  top: 130%;
   position: absolute;
-  margin-left: 37%;
+  margin-left: 7%;
+  border: 1px solid #cbcbcb;
+  padding-left: 20px;
+  padding-right: 4px;
 }
 #MainContent.product-page .product__tax {
   display: none;
+}
+#MainContent.product-page .price__regular .price-item--regular {
+  margin-left: 145px !important;
+}
+#MainContent.product-page .product--large:not(.product--no-media) .product__info-wrapper {
+  margin-top: 12%;
+}
+#MainContent.product-page .swym-button-bar {
+  position: absolute !important;
+  top: 54%;
+  margin-left: 28%;
 }
 .collection__title {
   margin-left: 4.5%;
