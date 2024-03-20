@@ -83,7 +83,9 @@
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 92
+        "padding_bottom": 92,
+        "enable_group_media": true,
+        "media_grouping_option": "Color"
       }
     },
     "related-products": {
