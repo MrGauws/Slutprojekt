@@ -49,7 +49,19 @@
 
 
   #MainContent.product-page {
+    margin-left: -23%;
     .product-form__submit{
-        margin-top: 100px;
+        top: 278px;
+    }
+    #swatch-option1{
+        margin-left: 7%;
+    }
+    #swatch-option2 {
+        bottom: 85%;
+        position: absolute;
+        margin-left: 37%;
+    }
+    .product__tax {
+        display: none;
     }
   }

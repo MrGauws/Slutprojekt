@@ -597,8 +597,22 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
 #MainContent.product-page variant-swatch-king {
   background-color: white !important;
 }
+#MainContent.product-page {
+  margin-left: -23%;
+}
 #MainContent.product-page .product-form__submit {
-  margin-top: 100px;
+  top: 278px;
+}
+#MainContent.product-page #swatch-option1 {
+  margin-left: 7%;
+}
+#MainContent.product-page #swatch-option2 {
+  bottom: 85%;
+  position: absolute;
+  margin-left: 37%;
+}
+#MainContent.product-page .product__tax {
+  display: none;
 }
 .collection__title {
   margin-left: 4.5%;
