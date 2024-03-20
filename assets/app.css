@@ -564,12 +564,6 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   padding: 10px !important;
   border-radius: 0.4rem !important;
 }
-@media screen and (min-width: 990px) {
-  .product:not(.product--columns) .product__media-list .product__media-item:first-child,
-  .product:not(.product--columns) .product__media-list .product__media-item--full {
-    width: unset !important;
-  }
-}
 .product-form__submit {
   background-color: black !important;
   color: white !important;
@@ -593,6 +587,18 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   display: flex;
   gap: 0.8rem;
   text-align: center;
+}
+.price__regular .price-item--regular {
+  margin-left: 145px !important;
+}
+.product-form__submit {
+  border-radius: 5.6rem;
+}
+#MainContent.product-page variant-swatch-king {
+  background-color: white !important;
+}
+#MainContent.product-page .product-form__submit {
+  margin-top: 100px;
 }
 .collection__title {
   margin-left: 4.5%;
