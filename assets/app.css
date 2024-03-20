@@ -60,7 +60,7 @@
   justify-content: space-between;
   padding: 30px 60px;
   padding-bottom: 0;
-  font-size: 16px;
+  font-size: 13px;
   border-top: 1px solid rgb(176, 175, 175);
 }
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div h5 {
@@ -68,7 +68,7 @@
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
 }
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div {
   display: flex;
@@ -80,6 +80,7 @@
   flex-direction: column;
   justify-content: unset;
   border: none;
+  width: 27%;
 }
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div div h5 {
   margin: 0 0 15px;
@@ -555,9 +556,7 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   right: 0;
 }
 .card__badge span {
-  position: absolute !important;
-  bottom: 0;
-  right: 0;
+  display: none;
 }
 .product-form__input {
   border: 1px solid lightgrey !important;

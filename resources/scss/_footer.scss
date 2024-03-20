@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: $general-padding;
   padding-bottom: 0;
-  font-size: 16px;
+  font-size: 13px;
   border-top: 1px solid rgb(176, 175, 175);
 
   h5 {
@@ -12,7 +12,7 @@
     color: $header-text;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .menu-div {
@@ -24,6 +24,7 @@
       flex-direction: column;
       justify-content: unset;
       border: none;
+      width: 27%;
 
       h5 {
         margin: 0 0 15px;

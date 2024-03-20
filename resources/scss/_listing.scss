@@ -215,8 +215,6 @@ variant-swatch-king {
 
 .card__badge {
   span {
-    position: absolute !important;
-    bottom: 0;
-    right: 0;
+    display: none;
   }
 }
