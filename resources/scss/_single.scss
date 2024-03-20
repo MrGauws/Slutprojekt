@@ -6,12 +6,7 @@
 
 
 
-@media screen and (min-width: 990px) {
-    .product:not(.product--columns) .product__media-list .product__media-item:first-child,
-    .product:not(.product--columns) .product__media-list .product__media-item--full {
-      width: unset !important;
-    }
-  }
+
 
 .product-form__submit {
     background-color: black !important;
@@ -38,4 +33,35 @@
     display: flex;
     gap: 0.8rem;
     text-align: center;
+  }
+
+  .price__regular .price-item--regular {
+    margin-left: 145px !important;
+  }
+
+  .product-form__submit {
+    border-radius: $btn;
+}
+
+#MainContent.product-page variant-swatch-king {
+    background-color: white !important;
+  }
+
+
+  #MainContent.product-page {
+    margin-left: -23%;
+    .product-form__submit{
+        top: 278px;
+    }
+    #swatch-option1{
+        margin-left: 7%;
+    }
+    #swatch-option2 {
+        bottom: 85%;
+        position: absolute;
+        margin-left: 37%;
+    }
+    .product__tax {
+        display: none;
+    }
   }
