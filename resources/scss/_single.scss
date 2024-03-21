@@ -51,8 +51,13 @@
     margin-left: -23%;
     .product-form__submit{
         top: 318px;
-        margin-left: 20px;
+        margin-left: 44px;
     }
+
+    .product__title h1{
+        margin-right: -57%;
+    }
+
     #swatch-option1{
         margin-left: 14%;
         bottom: -12%;
@@ -62,9 +67,11 @@
         top: 130%;
         position: absolute;
         margin-left: 7%;
-        border: 1px solid #cbcbcb;
+        border: .1rem solid #ebebeb;
+        border-radius: 0.4rem;
         padding-left: 20px;
         padding-right: 4px;
+        width: 100%
     }
     .product__tax {
         display: none;
@@ -81,3 +88,9 @@
         margin-left: 28%;
     }
   }
+
+  #shopify-block-judge_me_reviews_preview_badge_LPq6mE {
+    margin-left: 177px;
+    position: absolute;
+    margin-top: 13px;
+}
