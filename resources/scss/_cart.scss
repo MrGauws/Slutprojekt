@@ -8,14 +8,17 @@
     flex-direction: column; 
     align-items: center; 
     text-align: center; 
+    top: 36%;
+    position: absolute;
+    width: 104%;
   
     .shipping-savings-message {
-      margin-bottom: 10px; 
+        margin-top: 22px;
     }
   }
   #shipping-progress {
     width: 56%; 
-    left: 7%; 
+    left: 6%; 
     top: 22%; 
     z-index: 1; 
     position: absolute;
@@ -39,14 +42,24 @@
     width: 50%; 
   }
   
+  .cart__blocks{
+    position: absolute;
+    bottom: 148px;
+    right: -13%;
+  }
+  #MainContent .focus-none{
+    padding-bottom: 200px;
+  }
+
   .cart__items {
-    width: 50%; 
+    width: 76%; 
     float: left; 
+    left: -7%;
   }
   .custom-block {
-    right: 8%;
+    right: 3%;
     position: absolute;
-    margin-top: 129px;
+    margin-top: 101px;
     background-color: #cecece;
     border-radius: 0.4rem;
     transform: scale(0.8);
@@ -61,4 +74,17 @@
     float: right; 
     margin-top: 111px !important;
     width: 36%;
+    padding-bottom: 200px;
   }
+.grid__item{
+    left: 163%;
+    position: absolute;
+    width: 71% !important;
+}
+.cart-items{
+    margin-top: 41px;
+}
+
+cart-items .title-wrapper-with-link{
+    margin-left: -8%;
+}
