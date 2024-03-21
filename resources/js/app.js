@@ -53,22 +53,15 @@ function rotateISPs() {
 // Call rotateISPs function to start the rotation
 rotateISPs();
 
-const cardInner = document.querySelector(".card__inner");
+document.addEventListener("DOMContentLoaded", function () {
+  // Select the element by its class
+  const element = document.querySelector(
+    "._19gi7yt0._19gi7ytj._1fragemks._19gi7ytb"
+  );
 
-// Add event listener for mouseover to change cursor style
-cardInner.addEventListener("mouseover", function (event) {
-  // Check if the mouseover event happened on a child element with class .card__content
-  if (event.target.classList.contains("card__content")) {
-    // Change cursor style to pointer
-    event.target.style.cursor = "pointer";
-  }
-});
-
-// Add event listener for click to redirect to the home page
-cardInner.addEventListener("click", function (event) {
-  // Check if the click event happened on a child element with class .card__content
-  if (event.target.classList.contains("card__content")) {
-    // Redirect to the home page
-    window.location.href = "/";
+  // Check if the element exists
+  if (element) {
+    // Change the text content
+    element.textContent = "Complete";
   }
 });

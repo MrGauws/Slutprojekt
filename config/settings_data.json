@@ -14,7 +14,7 @@
     "animations_hover_elements": "none",
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
+    "buttons_radius": 40,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
@@ -118,6 +118,12 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
+    "checkout_logo_image": "shopify:\/\/shop_images\/gs-icon-black.svg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_input_background_color_mode": "white",
+    "checkout_button_color": "#000000",
+    "checkout_layout": "threepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -437,5 +443,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }

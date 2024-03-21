@@ -25,14 +25,11 @@ function rotateISPs() {
   });
 }
 rotateISPs();
-const cardInner = document.querySelector(".card__inner");
-cardInner.addEventListener("mouseover", function(event) {
-  if (event.target.classList.contains("card__content")) {
-    event.target.style.cursor = "pointer";
-  }
-});
-cardInner.addEventListener("click", function(event) {
-  if (event.target.classList.contains("card__content")) {
-    window.location.href = "/";
+document.addEventListener("DOMContentLoaded", function() {
+  const element = document.querySelector(
+    "._19gi7yt0._19gi7ytj._1fragemks._19gi7ytb"
+  );
+  if (element) {
+    element.textContent = "Complete";
   }
 });

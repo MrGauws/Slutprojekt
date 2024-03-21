@@ -54,6 +54,9 @@
   margin-top: 111px !important;
   width: 36%;
 }
+#continue_button {
+  border-radius: 100% !important;
+}
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
   flex-direction: row;
@@ -479,7 +482,7 @@ h2.banner__heading.inline-richtext.h1 {
 }
 variant-swatch-king {
   position: absolute;
-  bottom: 7.8rem;
+  bottom: 7.5rem;
   left: 0;
   right: 0;
   margin: auto;
