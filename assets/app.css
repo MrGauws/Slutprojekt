@@ -67,7 +67,7 @@
   width: 36%;
   padding-bottom: 200px;
 }
-.grid__item {
+.collapsible-content-wrapper-narrow .grid__item {
   left: 163%;
   position: absolute;
   width: 71% !important;

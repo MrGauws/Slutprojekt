@@ -75,12 +75,13 @@
     margin-top: 111px !important;
     width: 36%;
     padding-bottom: 200px;
+    .grid__item{
+        left: 163%;
+        position: absolute;
+        width: 71% !important;
+    }
   }
-.grid__item{
-    left: 163%;
-    position: absolute;
-    width: 71% !important;
-}
+
 .cart-items{
     margin-top: 41px;
 }
@@ -88,3 +89,4 @@
 cart-items .title-wrapper-with-link{
     margin-left: -8%;
 }
+
