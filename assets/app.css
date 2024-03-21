@@ -548,6 +548,7 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   background-color: #fff;
 }
 .card__information {
+  position: relative;
   padding-top: 20px;
   margin-top: 10px;
   width: 100%;
@@ -556,8 +557,12 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   display: none;
 }
 .card__information .card-information .rating-text {
-  display: contents;
+  display: flex;
+  align-items: center;
   font-weight: 600;
+  position: absolute;
+  top: -13px;
+  right: 0;
 }
 .card__information .card-information .rating-text::before {
   content: url("https://cdn.shopify.com/s/files/1/0866/9747/6401/files/blackstar.png?v=1711033676");
@@ -566,13 +571,14 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   width: 5px;
   height: 10px;
 }
-.card__information .card-information .rating-text::before span {
-  display: none;
+.card__information .card-information .rating-text span {
+  display: inline-block; /* Ensure inline-block for width to take effect */
+  width: 1.5em; /* Set the width to fit one character */
+  overflow: hidden; /* Hide overflow content */
+  white-space: nowrap; /* Prevent line breaks */
+  padding-top: 5px;
 }
-.card__information .card-information .rating-text::before span ::first-letter {
-  display: contents;
-}
-.card__information .card-information .rating span {
+.card__information .card-information .rating {
   display: none !important;
 }
 .card__information .card-information .price--on-sale {
