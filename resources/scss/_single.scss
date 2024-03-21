@@ -50,12 +50,14 @@
 
   #MainContent.product-page {
     margin-left: -23%;
+
+    
     .product-form__submit{
         top: 318px;
         margin-left: 44px;
     }
     #shopify-section-template--22290662654257__related-products{
-        padding-top: 20%;
+        padding-top: 20% !important;
     }
 
     .product__title h1{
