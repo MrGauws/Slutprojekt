@@ -658,6 +658,9 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   top: 318px;
   margin-left: 44px;
 }
+#MainContent.product-page #shopify-section-template--22290662654257__related-products {
+  padding-top: 20% !important;
+}
 #MainContent.product-page .product__title h1 {
   margin-right: -57%;
 }

@@ -449,7 +449,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      "a {text-decoration: none;}"
     ]
   }
 }
