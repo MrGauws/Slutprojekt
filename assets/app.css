@@ -528,6 +528,29 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   margin-top: 10px;
   width: 100%;
 }
+.card__information .card-information .rating-count {
+  display: none;
+}
+.card__information .card-information .rating-text {
+  display: contents;
+  font-weight: 600;
+}
+.card__information .card-information .rating-text::before {
+  content: url("https://cdn.shopify.com/s/files/1/0866/9747/6401/files/blackstar.png?v=1711033676");
+  display: inline-block;
+  margin-right: 10px;
+  width: 5px;
+  height: 10px;
+}
+.card__information .card-information .rating-text::before span {
+  display: none;
+}
+.card__information .card-information .rating-text::before span ::first-letter {
+  display: contents;
+}
+.card__information .card-information .rating span {
+  display: none !important;
+}
 .card__information .card-information .price--on-sale {
   display: flex;
   flex-direction: row-reverse;

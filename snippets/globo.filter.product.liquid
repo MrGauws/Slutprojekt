@@ -95,7 +95,19 @@
                 <span aria-hidden="true" class="rating-star color-icon-{{ settings.accent_icons }}" style="--rating: {{ card_product.metafields.reviews.rating | floor }}; --rating-max: 5; --rating-decimal: {{ rating_decimal }};"></span>
               </div>
               <p class="rating-text caption">
-                <span aria-hidden="true">{{ card_product.metafields.reviews.rating }} / 5</span>
+                <span aria-hidden="true">{{ card_product.metafields.reviews.rating }}</span>
+                <script>
+                  // Get the rating element
+                  const ratingElement = document.querySelector('.rating-text span');
+                  
+                  if (ratingElement) {
+                      // Get the text content
+                      const ratingText = ratingElement.textContent.trim();
+                  
+                      // Update the rating text to only display the first character
+                      ratingElement.textContent = ratingText.charAt(0);
+                  }
+                </script>
               </p>
               <p class="rating-count caption">
                 <span aria-hidden="true">({{ card_product.metafields.reviews.rating_count }})</span>

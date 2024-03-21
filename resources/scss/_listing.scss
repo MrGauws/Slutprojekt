@@ -179,14 +179,43 @@ variant-swatch-king {
   margin-top: 10px;
   width: 100%;
 
-  .card-information .price--on-sale {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    div .price__sale .price-item--sale.price-item--last {
-      color: red;
-      font-size: 13px;
-      font-weight: 500;
+  .card-information {
+    .rating-count {
+      display: none;
+    }
+    .rating-text {
+      display: contents;
+      font-weight: 600;
+
+      &::before {
+        content: url("https://cdn.shopify.com/s/files/1/0866/9747/6401/files/blackstar.png?v=1711033676");
+        display: inline-block;
+        margin-right: 10px;
+        width: 5px;
+        height: 10px;
+
+        span {
+          display: none;
+
+          ::first-letter {
+            display: contents;
+          }
+        }
+      }
+    }
+    .rating span {
+      display: none !important;
+    }
+
+    .price--on-sale {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      div .price__sale .price-item--sale.price-item--last {
+        color: red;
+        font-size: 13px;
+        font-weight: 500;
+      }
     }
   }
 
