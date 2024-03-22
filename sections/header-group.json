@@ -5,7 +5,7 @@
     "custom_liquid_NhYTMm": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"position: fixed; top: 0; right: 0; width: 37%; background-color: #ffffff; z-index: 1000;\">\n  {% for link in linklists.header-menu.links %}\n    <a href=\"{{ link.url }}\">{{ link.title }}<\/a>\n  {% endfor %}\n<\/div>",
+        "custom_liquid": "<div class=\"custom-fixed-menu\">\n  {% for link in linklists.header-menu.links %}\n    <a href=\"{{ link.url }}\">{{ link.title }}<\/a>\n  {% endfor %}\n<\/div>",
         "color_scheme": "scheme-4",
         "padding_top": 40,
         "padding_bottom": 52

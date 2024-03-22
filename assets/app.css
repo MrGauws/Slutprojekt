@@ -398,6 +398,14 @@ footer .footer__content-bottom .footer-menu-div a {
 .header__icon.header__icon--account {
   margin-left: 200px;
 }
+.custom-fixed-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 37%;
+  background-color: #ffffff;
+  z-index: 1000;
+}
 .collection__title {
   margin-left: 4.5%;
 }
