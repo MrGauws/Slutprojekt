@@ -105,3 +105,9 @@
         transform: scale(1.1);
     }
 }
+
+
+predictive-search[open] .predictive-search, predictive-search[loading] .predictive-search{
+    width: 1440px;
+    left: -326px;
+}

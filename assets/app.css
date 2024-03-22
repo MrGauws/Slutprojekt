@@ -420,6 +420,10 @@ footer .footer__content-bottom .footer-menu-div a {
 .custom-fixed-menu a:hover {
   transform: scale(1.1);
 }
+predictive-search[open] .predictive-search, predictive-search[loading] .predictive-search {
+  width: 1440px;
+  left: -326px;
+}
 .collection__title {
   margin-left: 4.5%;
 }
