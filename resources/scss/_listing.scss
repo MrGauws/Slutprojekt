@@ -142,19 +142,25 @@ variant-swatch-king {
     justify-content: center;
     ul {
       width: fit-content;
-      li div {
-        min-width: unset !important;
-        .swatch-button-title-text {
-          padding: 15px 0 !important;
-          width: 30px !important;
-          display: flex !important;
-          justify-content: center;
-          margin: 0 auto !important;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        flex-grow: 1;
+        margin: 0 5px;
+        div {
+          min-width: unset !important;
+          .swatch-button-title-text {
+            padding: 15px 0 !important;
+            width: 30px !important;
+            display: flex !important;
+            justify-content: center;
+            margin: 0 auto !important;
 
-          span {
-            font-size: 13px;
-            font-weight: 500;
-            margin: auto;
+            span {
+              font-size: 13px;
+              font-weight: 500;
+              margin: auto;
+            }
           }
         }
       }
@@ -255,3 +261,20 @@ variant-swatch-king {
     display: none !important;
   }
 }
+
+/*
+
+@media (max-width: 1189px) {
+  variant-swatch-king {
+    padding: 5px;
+  }
+  div.swatches div.swatch-preset-780104 ul.swatch-view {
+    li {
+      display: flex;
+      margin: 0 2.5;
+      flex-grow: 1;
+    }
+  }
+}
+
+*/

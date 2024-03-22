@@ -200,7 +200,7 @@ footer .footer__content-bottom {
   border-top: 1px solid rgb(176, 175, 175);
 }
 footer .footer__content-bottom p {
-  font-size: 14px;
+  font-size: 12px;
 }
 footer .footer__content-bottom div .footer__column--info {
   display: none;
@@ -211,17 +211,20 @@ footer .footer__content-bottom div .footer__copyright {
   justify-content: unset;
 }
 footer .footer__content-bottom div .footer__copyright small {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 300;
 }
 footer .footer__content-bottom .footer-menu-div a {
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   color: #444444;
-  font-weight: 500;
-  margin: 0 10px;
+  font-weight: 400;
+  margin: 0 12px;
 }
 @media (max-width: 1189px) {
+  .sel-disclosure-btn {
+    padding-right: 0;
+  }
   .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div .menu-div {
     gap: 10px;
   }
@@ -230,6 +233,16 @@ footer .footer__content-bottom .footer-menu-div a {
   }
   .more-holder h5 {
     min-height: 35%;
+  }
+  .footer__copyright .copyright__content,
+  .footer__copyright .footer-menu-div a {
+    font-size: 10px !important;
+  }
+  .footer__copyright .copyright__content {
+    padding-top: 2px;
+  }
+  footer .footer__content-bottom .footer-menu-div a {
+    margin: 0 12px 0 0 !important;
   }
 }
 @media (max-width: 1025px) {
@@ -648,6 +661,12 @@ variant-swatch-king .swatches div div div fieldset {
 }
 variant-swatch-king .swatches div div div fieldset ul {
   width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+variant-swatch-king .swatches div div div fieldset ul li {
+  flex-grow: 1;
+  margin: 0 5px;
 }
 variant-swatch-king .swatches div div div fieldset ul li div {
   min-width: unset !important;
@@ -745,6 +764,22 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
 .card__badge span {
   display: none !important;
 }
+/*
+
+@media (max-width: 1189px) {
+  variant-swatch-king {
+    padding: 5px;
+  }
+  div.swatches div.swatch-preset-780104 ul.swatch-view {
+    li {
+      display: flex;
+      margin: 0 2.5;
+      flex-grow: 1;
+    }
+  }
+}
+
+*/
 .product-form__input {
   border: 1px solid lightgrey !important;
   padding: 10px !important;
