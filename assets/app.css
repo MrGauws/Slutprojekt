@@ -78,9 +78,6 @@
 cart-items .title-wrapper-with-link {
   margin-left: -8%;
 }
-#continue_button {
-  border-radius: 100% !important;
-}
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
   flex-direction: row;
@@ -552,6 +549,10 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   padding-top: 20px;
   margin-top: 10px;
   width: 100%;
+  padding-left: 8px !important;
+}
+.card__information .card__heading.h5 {
+  margin-right: 20px;
 }
 .card__information .card-information .rating-count {
   display: none;
