@@ -7,8 +7,8 @@
       "settings": {
         "custom_liquid": "<div class=\"custom-fixed-menu\">\n  {% for link in linklists.header-menu.links %}\n    <a href=\"{{ link.url }}\">{{ link.title }}<\/a>\n  {% endfor %}\n<\/div>",
         "color_scheme": "scheme-4",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 76
       }
     },
     "header": {
