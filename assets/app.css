@@ -398,11 +398,15 @@ footer .footer__content-bottom .footer-menu-div a {
 .header__icon.header__icon--account {
   margin-left: 200px;
 }
+.shopify-section-group-header-group div div {
+  padding: unset;
+  padding-bottom: 3px !important;
+}
 .custom-fixed-menu {
   position: fixed;
-  top: -10px;
+  top: -5px;
   right: 0;
-  width: 42%;
+  width: 46%;
   display: flex;
 }
 .custom-fixed-menu a {
@@ -423,6 +427,11 @@ footer .footer__content-bottom .footer-menu-div a {
 predictive-search[open] .predictive-search, predictive-search[loading] .predictive-search {
   width: 1440px;
   left: -326px;
+}
+#shopify-section-sections--22290661507377__custom_liquid_NhYTMm {
+  top: -3px;
+  padding-bottom: 33px;
+  background-color: #ebebeb;
 }
 .collection__title {
   margin-left: 4.5%;
