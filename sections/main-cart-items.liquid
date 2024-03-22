@@ -9,10 +9,9 @@
   <p class="shipping-savings-message">
     {% assign shipping_value = 100000 %}
     {% assign cart_total = cart.total_price %}
-    {% assign shipping_value_left = shipping_value | minus: cart_total %}
-    {% assign percentage_complete = shipping_value_left | times: 100 | divided_by: shipping_value %}
-    {% if shipping_value_left > 0 %}
-      You're {{ shipping_value_left | money }} away from Free Standard Shipping
+    {% assign percentage_complete = cart_total | times: 100 | divided_by: shipping_value %}
+    {% if percentage_complete < 100 %}
+      You're {{ shipping_value | minus: cart_total | money }} away from Free Standard Shipping
     {% else %}
       You've got free shipping!
     {% endif %}
@@ -25,8 +24,7 @@
     var shipping_value = 100000;
     var progressBar = document.getElementById('shipping-progress');
     var cartTotal = {{ cart.total_price | json }};
-    var shippingValueLeft = shipping_value - cartTotal;
-    var percentageComplete = Math.max(0, Math.min(100, Math.round((1 - shippingValueLeft / shipping_value) * 100))));
+    var percentageComplete = Math.min(100, Math.round((cartTotal / shipping_value) * 100));
     
     progressBar.value = percentageComplete;
     progressBar.style.width = percentageComplete + '%';
@@ -36,8 +34,7 @@
     var shipping_value = 100000;
     var progressBar = document.getElementById('shipping-progress');
     var cartTotal = {{ cart.total_price | json }};
-    var shippingValueLeft = shipping_value - cartTotal;
-    var percentageComplete = Math.max(0, Math.min(100, Math.round((1 - shippingValueLeft / shipping_value) * 100))));
+    var percentageComplete = Math.min(100, Math.round((cartTotal / shipping_value) * 100));
     
     progressBar.value = percentageComplete;
     progressBar.style.width = percentageComplete + '%';
