@@ -1,5 +1,11 @@
 header {
   margin-top: 2.5% !important;
+  align-items: baseline;
+}
+
+.header__heading-logo-wrapper {
+  margin-top: 10%;
+  width: 4.5rem;
 }
 
 .header__heading-link {
@@ -8,19 +14,28 @@ header {
   top: 15%;
 }
 
+.header__menu-item {
+  padding: 0;
+}
+
 .header__active-menu-item {
   font-family: $font1;
   font-weight: 700;
   text-decoration: none !important;
   position: relative;
 
+  &:hover {
+    text-decoration: none !important;
+    transition: none !important;
+  }
+
   &:hover::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -33px;
+    bottom: -31px;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: black;
   }
 }
@@ -37,17 +52,24 @@ header {
 }
 
 .header__icon--search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   span {
     background-color: #fcfcfc;
-    width: 230px;
     color: black;
-    justify-content: flex-start;
     padding-left: 15px;
+    display: contents;
+    width: fit-content;
+
+    .search-texxt {
+      display: none;
+    }
   }
 }
 
 .mega-menu__link--active {
-  text-decoration: unset !important;
+  display: none;
 }
 /*
   #MegaMenu-Content-1 {
@@ -92,13 +114,6 @@ header {
     }
 }
 */
-.header__icon--account {
-  margin-left: 200px;
-}
-
-.header__icon.header__icon--account {
-  margin-left: 200px;
-}
 
 .shopify-section-group-header-group div div {
   padding: unset;
