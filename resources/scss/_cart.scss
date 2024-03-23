@@ -10,25 +10,29 @@
     text-align: center; 
     top: 36%;
     position: absolute;
-    width: 104%;
+    width: 100%;
   
     .shipping-savings-message {
         margin-top: 22px;
     }
   }
   #shipping-progress {
-    width: 56%; 
-    left: 6%; 
-    top: 22%; 
-    z-index: 1; 
-    position: absolute;
-  }
+    width: 58%;
+    right: 21rem;
+    top: -5.5rem;
+    z-index: 1;
+    position: relative;
+    background-image: linear-gradient(270deg, #05b2ff 0%, #007db5 100%) !important;
+    height: 10px;
+}
+
 
   #main-cart-footer {
     .cart__checkout-button {
       background-color: #007db5;
       color: white;
       border-radius: 5.6rem;
+      bottom: 18rem;
     }
   }
 
@@ -46,6 +50,13 @@
     position: absolute;
     bottom: 148px;
     right: -13%;
+
+    .totals{
+        display: none;
+    }
+    .tax-note {
+        display: none;
+    }
   }
   #MainContent .focus-none{
     padding-bottom: 200px;
@@ -79,6 +90,7 @@
         left: 163%;
         position: absolute;
         width: 71% !important;
+        bottom: 0;
     }
   }
 
@@ -88,5 +100,12 @@
 
 cart-items .title-wrapper-with-link{
     margin-left: -8%;
+    margin-left: 20px;
+    .underlined-link {
+        display: none; 
+    }
 }
 
+.quantity-popover-container {
+    padding: 0 !important;
+}

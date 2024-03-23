@@ -10,22 +10,25 @@
   text-align: center;
   top: 36%;
   position: absolute;
-  width: 104%;
+  width: 100%;
 }
 .skeppnings-container .shipping-savings-message {
   margin-top: 22px;
 }
 #shipping-progress {
-  width: 56%;
-  left: 6%;
-  top: 22%;
+  width: 58%;
+  right: 21rem;
+  top: -5.5rem;
   z-index: 1;
-  position: absolute;
+  position: relative;
+  background-image: linear-gradient(270deg, #05b2ff 0%, #007db5 100%) !important;
+  height: 10px;
 }
 #main-cart-footer .cart__checkout-button {
   background-color: #007db5;
   color: white;
   border-radius: 5.6rem;
+  bottom: 18rem;
 }
 .icon-row img {
   height: 24px;
@@ -39,6 +42,12 @@
   position: absolute;
   bottom: 148px;
   right: -13%;
+}
+.cart__blocks .totals {
+  display: none;
+}
+.cart__blocks .tax-note {
+  display: none;
 }
 #MainContent .focus-none {
   padding-bottom: 200px;
@@ -71,12 +80,20 @@
   left: 163%;
   position: absolute;
   width: 71% !important;
+  bottom: 0;
 }
 .cart-items {
   margin-top: 41px;
 }
 cart-items .title-wrapper-with-link {
   margin-left: -8%;
+  margin-left: 20px;
+}
+cart-items .title-wrapper-with-link .underlined-link {
+  display: none;
+}
+.quantity-popover-container {
+  padding: 0 !important;
 }
 .shopify-section-group-footer-group .color-scheme-1 div .footer-outer-div {
   display: flex;
