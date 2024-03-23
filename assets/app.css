@@ -972,6 +972,9 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
 }
 /* Media query för att göra sidan responsiv under 1350px */
 @media screen and (max-width: 1350px) {
+  #MainContent.product-page .slider-buttons {
+    margin-top: 20px !important;
+  }
   #MainContent.product-page #swatch-option1 {
     margin-left: 50px !important;
   }
@@ -1051,14 +1054,13 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     position: absolute;
     margin-top: 20px;
   }
-  /* Uppdateringar för variant-swatches */
   #MainContent.product-page .variant-swatch-king {
-    position: relative; /* Återgå till relativ position för variant-swatches */
-    margin-bottom: 0; /* Återställ margin-bottom */
+    position: relative;
+    margin-bottom: 0;
   }
   #MainContent.product-page #swatch-option1,
   #MainContent.product-page #swatch-option2 {
-    position: relative; /* Återgå till relativ position på mindre skärmar för att de ska flytta med resten av layouten */
+    position: relative;
     bottom: auto;
     left: auto;
     top: auto;
@@ -1072,12 +1074,19 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   #MainContent.product-page .product-form__submit {
     top: 297px !important;
     margin-left: -22px !important;
+    /* Stilmall för slider-buttons-klassen */
   }
   #MainContent.product-page .product-form__submit #MainContent.product-page .product__title h1 {
     margin-right: unset !important;
   }
   #MainContent.product-page .product-form__submit #MainContent.product-page .slider-buttons {
     margin-top: 20px !important;
+  }
+  #MainContent.product-page .product-form__submit #MainContent.product-page .slider-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
 }
 .collection__title {
