@@ -338,6 +338,9 @@ footer .footer__content-bottom .footer-menu-div a {
     padding: 5px !important;
   }
 }
+header {
+  margin-top: 2.5% !important;
+}
 .header__heading-link {
   position: absolute;
   left: 4%;
@@ -415,29 +418,49 @@ footer .footer__content-bottom .footer-menu-div a {
   padding: unset;
   padding-bottom: 3px !important;
 }
-.custom-fixed-menu {
+.color-scheme-4 div {
+  padding: 0 !important;
+}
+.color-scheme-4 div .custom-fixed-menu {
   position: fixed;
-  top: -5px;
-  right: 0;
+  top: 0;
+  min-width: 100%;
   width: 46%;
   display: flex;
+  padding: 0 5rem !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  justify-content: end;
+  background-color: #ebebeb;
+  align-items: center;
 }
-.custom-fixed-menu a {
-  color: inherit;
+.color-scheme-4 div .custom-fixed-menu a {
+  color: #53565a;
   text-decoration: none;
-  transition: color 0.3s, transform 0.3s;
-  padding: 10px;
+  padding: 0 10px;
   position: relative;
+  border-right: solid 1px #464a4e;
+  font-size: 12px;
+  font-weight: 350;
+  line-height: 30px;
 }
-.custom-fixed-menu a:not(:last-child)::after {
-  content: "|";
-  margin-left: 10px;
-  color: #ccc;
+.color-scheme-4 div .custom-fixed-menu a:first-of-type::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0866/9747/6401/files/Pngtree_profile_line_black_icon_4008155.png?v=1711151102");
+  background-size: cover;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-55%);
+  left: -10px;
 }
-.custom-fixed-menu a:hover {
-  transform: scale(1.1);
+.color-scheme-4 div .custom-fixed-menu a:hover {
+  color: #181919;
 }
-predictive-search[open] .predictive-search, predictive-search[loading] .predictive-search {
+predictive-search[open] .predictive-search,
+predictive-search[loading] .predictive-search {
   width: 1440px;
   left: -326px;
 }
@@ -445,6 +468,9 @@ predictive-search[open] .predictive-search, predictive-search[loading] .predicti
   top: -3px;
   padding-bottom: 33px;
   background-color: #ebebeb;
+}
+.sel-cute.sel-disclosure-btn {
+  background-color: transparent !important;
 }
 .collection__title {
   margin-left: 4.5%;
@@ -655,14 +681,14 @@ h2.banner__heading.inline-richtext.h1 {
 }
 variant-swatch-king {
   position: absolute;
-  bottom: 7.5rem;
+  bottom: 8rem;
   left: 0;
   right: 0;
   margin: auto;
   background-color: whitesmoke;
   transition: transform 0.25s ease;
   transform: translateY(100%);
-  padding: 15px 30px;
+  padding: 15px 25px;
 }
 variant-swatch-king .swatches div div div fieldset {
   display: flex;
@@ -672,10 +698,10 @@ variant-swatch-king .swatches div div div fieldset ul {
   width: fit-content;
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
 }
 variant-swatch-king .swatches div div div fieldset ul li {
-  flex-grow: 1;
-  margin: 0 5px;
+  margin: 0 !important;
 }
 variant-swatch-king .swatches div div div fieldset ul li div {
   min-width: unset !important;
@@ -710,7 +736,7 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   padding-left: 8px !important;
 }
 .card__information .card__heading.h5 {
-  margin-right: 20px;
+  margin-right: 20%;
 }
 .card__information .card-information .rating-count {
   display: none;
@@ -773,22 +799,29 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
 .card__badge span {
   display: none !important;
 }
-/*
-
 @media (max-width: 1189px) {
   variant-swatch-king {
     padding: 5px;
-  }
-  div.swatches div.swatch-preset-780104 ul.swatch-view {
-    li {
-      display: flex;
-      margin: 0 2.5;
-      flex-grow: 1;
-    }
+    bottom: 11rem;
   }
 }
-
-*/
+@media (max-width: 1025px) {
+  variant-swatch-king {
+    display: none;
+  }
+}
+@media (max-width: 432px) {
+  .color-scheme-1 div {
+    padding-top: 0;
+  }
+  .rotating-container {
+    padding: 10px;
+  }
+  .rotating-container .isp p {
+    font-size: 10px;
+    padding: 0 20px;
+  }
+}
 .product-form__input {
   border: 1px solid lightgrey !important;
   padding: 10px !important;
