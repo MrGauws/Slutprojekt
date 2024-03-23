@@ -35,7 +35,7 @@
     "custom_liquid_iGrjFQ": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"custom-block\">\n    <h2>DELIVERED TO YOUR DOOR.<\/h2>\n    <div class=\"icon-row\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/shipping.svg?v=1710878341\" alt=\"Icon 1\">\n        <span>Express Shipping Available<\/span>\n    <\/div>\n    <div class=\"icon-row\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/replay.webp?v=1710878341\" alt=\"Icon 2\">\n        <span>Free 30-Day Return Policy!<\/span>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"custom-block isp\">\n\n    <h2>DELIVERED TO YOUR DOOR.\n<\/h2>\n<div class=\"inner-wrapper\">\n    <div class=\"icon-row\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/shipping.svg?v=1710878341\" alt=\"Icon 1\">\n        <span>Express Shipping Available<\/span>\n    <\/div>\n    <div class=\"icon-row\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/replay.webp?v=1710878341\" alt=\"Icon 2\">\n        <span>Free 30-Day Return Policy!<\/span>\n    <\/div>\n<\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
