@@ -120,7 +120,8 @@
 /* Media query för att göra sidan responsiv under 1350px */
 @media screen and (max-width: 1350px) {
     #MainContent.product-page .slider-buttons {
-        margin-top: 20px !important;
+        margin-top: 63px !important;
+        z-index: 9999 !important;
     }
 
     #MainContent.product-page #swatch-option1{
