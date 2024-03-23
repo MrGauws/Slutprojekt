@@ -113,34 +113,27 @@
     margin-top: 13px;
 }
 @media (max-width: 1025px){
-#MainContent.product-page variant-swatch-king {
-    display: unset;
-    left: 25%;
-    bottom: 172px;
+    #MainContent.product-page variant-swatch-king {
+        display: unset;
+        left: 25%;
+        bottom: 172px;
+        }
     }
-}
 
-@media (max-width: 750px){
-    #MainContent.product-page .section-template--22290662654257__related-products-padding {
-        padding-top: 138px;
-    }
-    #MainContent.product-page .product-form__submit {
-        top: 297px !important;
-        margin-left: -22px !important;
-    #MainContent.product-page .product__title h1 {
-        margin-right: unset !important;
-    }
-}
-}
 
 /* Media query för att göra sidan responsiv under 1350px */
 @media screen and (max-width: 1350px) {
+    #MainContent.product-page #swatch-option1{
+        margin-left: 50px !important;
+    }
+
+
     .product-form__input {
         border: 1px solid lightgrey !important; 
         padding: 10px !important; 
         border-radius: 0.4rem !important;
     }
-
+    
     .product-form__submit {
         background-color: black !important;
         color: white !important;  
@@ -159,7 +152,7 @@
         margin: 0 0 0.8rem; 
         text-align: center;
     }
-
+    
     .price-item.price-item--regular {
         font-size: 1.4rem;
         font-weight: 700;
@@ -170,48 +163,30 @@
         gap: 0.8rem;
         text-align: center;
     }
-
-    #MainContent.product-page .variant-swatch-king {
-        background-color: white !important;
-        margin-bottom: -150px;
-    }
-
+    
+    
+    
     #MainContent.product-page {
         margin-left: -23%;
-
+        
         .product-form__submit{
             top: 318px;
             margin-left: 44px;
         }
         #shopify-section-template--22290662654257__related-products{
-            padding-top: 20% !important;
+            margin-top: 70px !important;
             margin-left: 17% !important;
         }
         #shopify-section-template--22290662654257__17108652079a792211 {
             margin-left: 17%;
             padding-top: 5% !important;
         }
-
+        
         .product__title h1{
             margin-right: -57%;
         }
-
-        #swatch-option1 {
-            margin-left: 5%; 
-            bottom: auto; 
-            top: 10%; 
-            position: relative; 
-        }
-        #swatch-option2 {
-            top: 130%;
-            position: absolute;
-            margin-left: 7%;
-            border: .1rem solid #ebebeb;
-            border-radius: 0.4rem;
-            padding-left: 20px;
-            padding-right: 4px;
-            width: 100%
-        }
+        
+        
         .price__sale{
             margin-left: 4vw;
         }
@@ -222,7 +197,7 @@
             padding: 0 0 0 10rem;
         }
         .price__regular .price-item--regular {
-            margin-left: 145px !important;
+            margin-left: 130px !important;
         }
         .product--large:not(.product--no-media) .product__info-wrapper {
             margin-top: 12%;
@@ -233,19 +208,19 @@
             margin-left: 9%;
         }
     }
-
+    
     #shopify-block-judge_me_reviews_preview_badge_LPq6mE {
         margin-left: 161px;
         position: absolute;
         margin-top: 20px;
     }
-
+    
     /* Uppdateringar för variant-swatches */
     #MainContent.product-page .variant-swatch-king {
         position: relative; /* Återgå till relativ position för variant-swatches */
         margin-bottom: 0; /* Återställ margin-bottom */
     }
-
+    
     #MainContent.product-page #swatch-option1,
     #MainContent.product-page #swatch-option2 {
         position: relative; /* Återgå till relativ position på mindre skärmar för att de ska flytta med resten av layouten */
@@ -253,5 +228,21 @@
         left: auto;
         top: auto;
         margin-left: 0;
+    }
+}
+
+@media (max-width: 750px){
+    #MainContent.product-page .section-template--22290662654257__related-products-padding {
+        margin-top: 70px !important;
+    }
+    #MainContent.product-page .product-form__submit {
+        top: 297px !important;
+        margin-left: -22px !important;
+    #MainContent.product-page .product__title h1 {
+        margin-right: unset !important;
+    }
+    #MainContent.product-page .slider-buttons {
+        margin-top: 20px !important;
+    }
     }
 }

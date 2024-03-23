@@ -970,20 +970,11 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     bottom: 172px;
   }
 }
-@media (max-width: 750px) {
-  #MainContent.product-page .section-template--22290662654257__related-products-padding {
-    padding-top: 138px;
-  }
-  #MainContent.product-page .product-form__submit {
-    top: 297px !important;
-    margin-left: -22px !important;
-  }
-  #MainContent.product-page .product-form__submit #MainContent.product-page .product__title h1 {
-    margin-right: unset !important;
-  }
-}
 /* Media query för att göra sidan responsiv under 1350px */
 @media screen and (max-width: 1350px) {
+  #MainContent.product-page #swatch-option1 {
+    margin-left: 50px !important;
+  }
   .product-form__input {
     border: 1px solid lightgrey !important;
     padding: 10px !important;
@@ -1017,10 +1008,6 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     gap: 0.8rem;
     text-align: center;
   }
-  #MainContent.product-page .variant-swatch-king {
-    background-color: white !important;
-    margin-bottom: -150px;
-  }
   #MainContent.product-page {
     margin-left: -23%;
   }
@@ -1029,7 +1016,7 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     margin-left: 44px;
   }
   #MainContent.product-page #shopify-section-template--22290662654257__related-products {
-    padding-top: 20% !important;
+    margin-top: 70px !important;
     margin-left: 17% !important;
   }
   #MainContent.product-page #shopify-section-template--22290662654257__17108652079a792211 {
@@ -1038,22 +1025,6 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   }
   #MainContent.product-page .product__title h1 {
     margin-right: -57%;
-  }
-  #MainContent.product-page #swatch-option1 {
-    margin-left: 5%;
-    bottom: auto;
-    top: 10%;
-    position: relative;
-  }
-  #MainContent.product-page #swatch-option2 {
-    top: 130%;
-    position: absolute;
-    margin-left: 7%;
-    border: 0.1rem solid #ebebeb;
-    border-radius: 0.4rem;
-    padding-left: 20px;
-    padding-right: 4px;
-    width: 100%;
   }
   #MainContent.product-page .price__sale {
     margin-left: 4vw;
@@ -1065,7 +1036,7 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     padding: 0 0 0 10rem;
   }
   #MainContent.product-page .price__regular .price-item--regular {
-    margin-left: 145px !important;
+    margin-left: 130px !important;
   }
   #MainContent.product-page .product--large:not(.product--no-media) .product__info-wrapper {
     margin-top: 12%;
@@ -1092,6 +1063,21 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     left: auto;
     top: auto;
     margin-left: 0;
+  }
+}
+@media (max-width: 750px) {
+  #MainContent.product-page .section-template--22290662654257__related-products-padding {
+    margin-top: 70px !important;
+  }
+  #MainContent.product-page .product-form__submit {
+    top: 297px !important;
+    margin-left: -22px !important;
+  }
+  #MainContent.product-page .product-form__submit #MainContent.product-page .product__title h1 {
+    margin-right: unset !important;
+  }
+  #MainContent.product-page .product-form__submit #MainContent.product-page .slider-buttons {
+    margin-top: 20px !important;
   }
 }
 .collection__title {
