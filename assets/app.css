@@ -592,49 +592,6 @@ header {
 .mega-menu__link--active {
   display: none;
 }
-/*
-  #MegaMenu-Content-1 {
-    .mega-menu__list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        grid-template-areas: 
-            "offers trending products"
-            "womens-sale trending collections";
-    }
-
-    .mega-menu__link--level-2 {
-
-        width: 100%;
-
-    }
-
-    #HeaderMenu-women-offers {
-
-        grid-area: offers;
-
-    }
-
-    #HeaderMenu-women-womens-sale {
-
-        grid-area: womens-sale;
-
-    }
-
-    #HeaderMenu-women-trending {
-        grid-area: trending;
-    }
-
-    #HeaderMenu-women-products {
-        grid-area: products;
-    }
-
-    #HeaderMenu-women-collections {
-        grid-area: collections;
-
-    }
-}
-*/
 .shopify-section-group-header-group div div {
   padding: unset;
   padding-bottom: 3px !important;
@@ -796,6 +753,57 @@ h2.banner__heading.inline-richtext.h1 {
   font-weight: 400;
   z-index: 2;
   width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .banner__box {
+    margin-right: 35%;
+  }
+  .banner__box .button {
+    position: unset;
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
+    margin-left: 37%;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
+    position: unset;
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+  }
+  #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+    margin-right: 40%;
+  }
+  #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+    width: 164px;
+    margin-left: 20px;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__heading {
+    color: #fff;
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #fff;
+    font-weight: 400;
+    z-index: 2;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .collection__title {
+    margin-left: 2%;
+  }
+  .banner__box {
+    right: unset;
+  }
+  .banner__box .banner__heading + * {
+    margin-right: 15%;
+  }
 }
 #MainContent.collection-page .shopify-section div {
   padding-top: 0;
@@ -1366,6 +1374,57 @@ h2.banner__heading.inline-richtext.h1 {
   font-weight: 400;
   z-index: 2;
   width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .banner__box {
+    margin-right: 35%;
+  }
+  .banner__box .button {
+    position: unset;
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
+    margin-left: 37%;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
+    position: unset;
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+  }
+  #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+    margin-right: 40%;
+  }
+  #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
+    border-radius: 5.6rem !important;
+    font-weight: 700;
+    width: 164px;
+    margin-left: 20px;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__heading {
+    color: #fff;
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+  }
+  #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #fff;
+    font-weight: 400;
+    z-index: 2;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .collection__title {
+    margin-left: 2%;
+  }
+  .banner__box {
+    right: unset;
+  }
+  .banner__box .banner__heading + * {
+    margin-right: 15%;
+  }
 }
 .slider-buttons {
   position: absolute;
