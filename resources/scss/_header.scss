@@ -71,49 +71,6 @@ header {
 .mega-menu__link--active {
   display: none;
 }
-/*
-  #MegaMenu-Content-1 {
-    .mega-menu__list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        grid-template-areas: 
-            "offers trending products"
-            "womens-sale trending collections";
-    }
-
-    .mega-menu__link--level-2 {
-
-        width: 100%;
-
-    }
-
-    #HeaderMenu-women-offers {
-
-        grid-area: offers;
-
-    }
-
-    #HeaderMenu-women-womens-sale {
-
-        grid-area: womens-sale;
-
-    }
-
-    #HeaderMenu-women-trending {
-        grid-area: trending;
-    }
-
-    #HeaderMenu-women-products {
-        grid-area: products;
-    }
-
-    #HeaderMenu-women-collections {
-        grid-area: collections;
-
-    }
-}
-*/
 
 .shopify-section-group-header-group div div {
   padding: unset;
