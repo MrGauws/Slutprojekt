@@ -257,6 +257,11 @@ h2.banner__heading.inline-richtext.h1 {
   /*-------------------------------------------------->375--------------------------------------------------*/
 
   @media screen and (max-width: 420px) {
+    .mega-menu__content {
+      left: unset !important;
+      right: unset !important;
+      width: unset !important;
+    }
     .collection__title {
       margin-left: 2%;
     }

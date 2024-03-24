@@ -863,6 +863,11 @@ h2.banner__heading.inline-richtext.h1 {
   }
 }
 @media screen and (max-width: 1000px) and (max-width: 420px) {
+  .mega-menu__content {
+    left: unset !important;
+    right: unset !important;
+    width: unset !important;
+  }
   .collection__title {
     margin-left: 2%;
   }
@@ -1389,6 +1394,11 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 .collection__title {
   margin-left: 4.5%;
 }
@@ -1585,6 +1595,11 @@ h2.banner__heading.inline-richtext.h1 {
   }
 }
 @media screen and (max-width: 1000px) and (max-width: 420px) {
+  .mega-menu__content {
+    left: unset !important;
+    right: unset !important;
+    width: unset !important;
+  }
   .collection__title {
     margin-left: 2%;
   }

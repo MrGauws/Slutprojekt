@@ -252,3 +252,10 @@
     }
     }
 }
+
+
+@media screen and (max-width: 375px) {
+    body {
+        overflow-x: hidden; 
+    }
+}
