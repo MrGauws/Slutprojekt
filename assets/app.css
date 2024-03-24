@@ -654,6 +654,18 @@ predictive-search[loading] .predictive-search {
   .header__heading-link {
     left: unset !important;
   }
+  predictive-search[open] .predictive-search,
+  predictive-search[loading] .predictive-search {
+    width: unset !important;
+    left: unset !important;
+  }
+}
+@media screen and (max-width: 375) {
+  predictive-search[open] .predictive-search,
+  predictive-search[loading] .predictive-search {
+    width: unset !important;
+    left: unset !important;
+  }
 }
 .collection__title {
   margin-left: 4.5%;
@@ -1732,4 +1744,8 @@ div.cart-count-bubble {
   color: white;
   font-weight: 800;
   padding-top: 3px;
+}
+#MainContent {
+  overflow-x: hidden !important;
+  width: 100% !important;
 }
