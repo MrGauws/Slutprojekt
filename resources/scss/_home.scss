@@ -136,6 +136,7 @@ h2.banner__heading.inline-richtext.h1 {
   width: 100%;
 }
 
+/*-------------------------------------------------->1440--------------------------------------------------*/
 
 @media screen and (max-width: 1440px) {
   .banner__box {
@@ -147,6 +148,13 @@ h2.banner__heading.inline-richtext.h1 {
       font-weight: 700;
     }
   }
+
+  #MainContent
+  #Banner-template--22290662097201__image_banner
+  .banner__content
+  .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
+  margin-right: unset;
+}
 
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
     margin-left: 37%;
@@ -185,6 +193,44 @@ h2.banner__heading.inline-richtext.h1 {
   }
 }
 
+/*-------------------------------------------------->1000--------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+  .custom-fixed-menu {
+    display: none !important;
+  }
+  #shopify-section-sections--22290661507377__custom_liquid_NhYTMm {
+    display: none !important;
+  }
+  .banner__box>*+.banner__buttons {
+    transform: scale(0.8) !important;
+    position: absolute !important;
+    left: -9% !important;
+}
+  .banner__box{
+  padding: unset !important;
+}
+
+/*-------------------------------------------------->750--------------------------------------------------*/
+@media screen and (max-width: 750px) {
+  .image-gallery {
+    display: block; 
+    padding: 0 4%;
+  }
+
+  .image-item {
+    margin-bottom: 20px; 
+    margin-right: 0; 
+  }
+
+  .button {
+    display: block; 
+    margin-top: 10px; 
+  }
+}
+
+/*-------------------------------------------------->375--------------------------------------------------*/
+
 @media screen and (max-width: 375px) {
 
   .collection__title {
@@ -198,4 +244,5 @@ h2.banner__heading.inline-richtext.h1 {
   .banner__box .banner__heading + * {
     margin-right: 15%;
   }
+}
 }
