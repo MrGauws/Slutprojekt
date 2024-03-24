@@ -154,6 +154,7 @@ h2.banner__heading.inline-richtext.h1 {
   .banner__content
   .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
   margin-right: unset;
+  font-size: 3vw;
 }
 
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
@@ -210,6 +211,9 @@ h2.banner__heading.inline-richtext.h1 {
   .banner__box{
   padding: unset !important;
 }
+  .banner__box>*:first-child{
+    font-size: 6vw;
+  }
 
 /*-------------------------------------------------->750--------------------------------------------------*/
 @media screen and (max-width: 750px) {
