@@ -107,6 +107,7 @@ h2.banner__heading.inline-richtext.h1 {
   .banner__content
   .banner__box {
   margin-right: 0;
+  margin-left: 72px;
 
   .button {
     border-radius: 5.6rem !important;
@@ -154,6 +155,7 @@ h2.banner__heading.inline-richtext.h1 {
     .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
     margin-right: unset;
     font-size: 3vw;
+    margin-left: 72px;
   }
 
   #Banner-template--22290662097201__image_banner_Lfcfa6
@@ -217,6 +219,13 @@ h2.banner__heading.inline-richtext.h1 {
       width: auto;
     }
   }
+
+  #MainContent
+  #Banner-template--22290662097201__image_banner_jyUqDy
+  .banner__content
+  .banner__box {
+  margin-left: unset !important;
+}
 
   .custom-fixed-menu {
     display: none !important;
