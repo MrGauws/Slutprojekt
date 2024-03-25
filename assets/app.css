@@ -742,6 +742,7 @@ h2.banner__heading.inline-richtext.h1 {
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
   margin-right: 0;
+  margin-left: 72px;
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
   border-radius: 5.6rem !important;
@@ -778,6 +779,7 @@ h2.banner__heading.inline-richtext.h1 {
   #MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
     margin-right: unset;
     font-size: 3vw;
+    margin-left: 72px;
   }
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
     margin-left: 0;
@@ -826,6 +828,9 @@ h2.banner__heading.inline-richtext.h1 {
   .header__heading-logo-wrapper img {
     height: 30px;
     width: auto;
+  }
+  #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+    margin-left: unset !important;
   }
   .custom-fixed-menu {
     display: none !important;
@@ -1220,7 +1225,10 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   margin-bottom: -150px;
 }
 #MainContent.product-page {
-  margin-left: -23%;
+  margin-left: -17%;
+}
+#MainContent.product-page .jdgm-widget.jdgm-widget {
+  margin-left: 20rem;
 }
 #MainContent.product-page .product-form__submit {
   top: 318px;
@@ -1273,7 +1281,6 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   margin-left: 28%;
 }
 #shopify-block-judge_me_reviews_preview_badge_LPq6mE {
-  margin-left: 177px;
   position: absolute;
   margin-top: 13px;
 }
@@ -1284,8 +1291,11 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     bottom: 172px;
   }
 }
-/* Media query för att göra sidan responsiv under 1350px */
-@media screen and (max-width: 1350px) {
+/* Media query för att göra sidan responsiv under 1250px */
+@media screen and (max-width: 1250px) {
+  .header__heading-link {
+    position: unset !important;
+  }
   #MainContent.product-page .slider-buttons {
     margin-top: 63px !important;
     z-index: 9999 !important;
@@ -1325,9 +1335,6 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     display: flex;
     gap: 0.8rem;
     text-align: center;
-  }
-  #MainContent.product-page {
-    margin-left: -23%;
   }
   #MainContent.product-page .product-form__submit {
     top: 318px;
@@ -1383,8 +1390,15 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   }
 }
 @media (max-width: 750px) {
+  #MainContent.product-page .related-products {
+    margin-left: 107px !important;
+  }
+  #MainContent.product-page .jdgm-widget.jdgm-widget {
+    margin-left: unset !important;
+  }
   #MainContent.product-page .section-template--22290662654257__related-products-padding {
     margin-top: 70px !important;
+    margin-left: 100px !important;
   }
   #MainContent.product-page .product-form__submit {
     top: 297px !important;
@@ -1401,6 +1415,17 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 420px) {
+  #MainContent.product-page .product-form__submit {
+    top: 326px !important;
+  }
+  .header__heading-link {
+    left: unset !important;
   }
 }
 @media screen and (max-width: 375px) {
@@ -1484,6 +1509,7 @@ h2.banner__heading.inline-richtext.h1 {
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
   margin-right: 0;
+  margin-left: 72px;
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
   border-radius: 5.6rem !important;
@@ -1520,6 +1546,7 @@ h2.banner__heading.inline-richtext.h1 {
   #MainContent #Banner-template--22290662097201__image_banner .banner__content .banner__box.content-container.content-container--full-width-mobile.color-scheme-3.gradient {
     margin-right: unset;
     font-size: 3vw;
+    margin-left: 72px;
   }
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
     margin-left: 0;
@@ -1568,6 +1595,9 @@ h2.banner__heading.inline-richtext.h1 {
   .header__heading-logo-wrapper img {
     height: 30px;
     width: auto;
+  }
+  #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
+    margin-left: unset !important;
   }
   .custom-fixed-menu {
     display: none !important;
