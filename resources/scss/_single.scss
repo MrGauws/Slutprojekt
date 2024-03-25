@@ -45,8 +45,12 @@
 
 
   #MainContent.product-page {
-    margin-left: -23%;
+    margin-left: -17%;
 
+    
+    .jdgm-widget.jdgm-widget{
+        margin-left: 20rem;
+    }
     
     .product-form__submit{
         top: 318px;
@@ -104,7 +108,6 @@
   }
 
   #shopify-block-judge_me_reviews_preview_badge_LPq6mE {
-    margin-left: 177px;
     position: absolute;
     margin-top: 13px;
 }
@@ -117,8 +120,11 @@
     }
 
 
-/* Media query för att göra sidan responsiv under 1350px */
-@media screen and (max-width: 1350px) {
+/* Media query för att göra sidan responsiv under 1250px */
+@media screen and (max-width: 1250px) {
+    .header__heading-link {
+        position: unset !important;
+    }
     #MainContent.product-page .slider-buttons {
         margin-top: 63px !important;
         z-index: 9999 !important;
@@ -168,7 +174,7 @@
     
     
     #MainContent.product-page {
-        margin-left: -23%;
+        
         
         .product-form__submit{
             top: 318px;
@@ -232,8 +238,17 @@
 }
 
 @media (max-width: 750px){
+    #MainContent.product-page .related-products{
+        margin-left: 107px !important;
+    }
+
+    #MainContent.product-page .jdgm-widget.jdgm-widget{
+        margin-left: unset !important;
+    }
+
     #MainContent.product-page .section-template--22290662654257__related-products-padding {
         margin-top: 70px !important;
+        margin-left: 100px !important;
     }
     #MainContent.product-page .product-form__submit {
         top: 297px !important;
@@ -256,6 +271,14 @@
     }
 }
 
+@media screen and (max-width: 420px){
+    #MainContent.product-page .product-form__submit{
+        top: 326px !important;
+    }
+    .header__heading-link{
+        left: unset !important;
+    }
+}
 
 @media screen and (max-width: 375px) {
     body {
