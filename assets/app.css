@@ -1419,6 +1419,12 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   body {
     overflow-x: hidden;
   }
+  #MainContent.product-page .product--large:not(.product--no-media) .product__info-wrapper {
+    padding-left: 0 !important;
+  }
+  #MainContent.product-page .related-products {
+    margin-left: 0 !important;
+  }
 }
 @media screen and (max-width: 420px) {
   #MainContent.product-page .product-form__submit {
@@ -1427,8 +1433,8 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   .header__heading-link {
     left: unset !important;
   }
-  #MainContent.product-page .shopify-section {
-    margin-left: 17% !important;
+  #MainContent.product-page {
+    margin-left: 0 !important;
   }
   #shopify-section-template--22290662654257__related-products {
     margin-left: unset !important;
@@ -1449,6 +1455,9 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   }
   #MainContent.product-page .price__regular .price-item--regular {
     margin-left: unset !important;
+  }
+  #MainContent.product-page product-recommendations {
+    margin-top: 180px;
   }
 }
 @media screen and (max-width: 375px) {
