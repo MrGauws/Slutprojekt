@@ -26,10 +26,43 @@ function rotateISPs() {
 }
 rotateISPs();
 document.addEventListener("DOMContentLoaded", function() {
-  const element = document.querySelector(
-    "._19gi7yt0._19gi7ytj._1fragemks._19gi7ytb"
-  );
-  if (element) {
-    element.textContent = "Complete";
+  const menuItems = document.querySelectorAll(".header__active-menu-item");
+  function addHover(event) {
+    const target = event.target.closest(".header__active-menu-item");
+    if (target) {
+      target.classList.add("hover");
+    }
   }
+  function removeHover(event) {
+    const target = event.target.closest(".header__active-menu-item");
+    if (target) {
+      target.classList.remove("hover");
+    }
+  }
+  menuItems.forEach((menuItem) => {
+    menuItem.addEventListener("mouseover", addHover);
+    menuItem.addEventListener("mouseout", removeHover);
+  });
+  document.addEventListener("mouseover", function(event) {
+    const target = event.target.closest(".mega-menu__content");
+    if (target) {
+      const menuItem = target.parentElement.querySelector(
+        ".header__active-menu-item"
+      );
+      if (menuItem) {
+        menuItem.classList.add("hover");
+      }
+    }
+  });
+  document.addEventListener("mouseout", function(event) {
+    const target = event.target.closest(".mega-menu__content");
+    if (target) {
+      const menuItem = target.parentElement.querySelector(
+        ".header__active-menu-item"
+      );
+      if (menuItem) {
+        menuItem.classList.remove("hover");
+      }
+    }
+  });
 });

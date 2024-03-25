@@ -54,16 +54,49 @@ function rotateISPs() {
 rotateISPs();
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Select the element by its class
-  const element = document.querySelector(
-    "._19gi7yt0._19gi7ytj._1fragemks._19gi7ytb"
-  );
+  const menuItems = document.querySelectorAll(".header__active-menu-item");
 
-  // Check if the element exists
-  if (element) {
-    // Change the text content
-    element.textContent = "Complete";
+  function addHover(event) {
+    const target = event.target.closest(".header__active-menu-item");
+    if (target) {
+      target.classList.add("hover");
+    }
   }
+
+  function removeHover(event) {
+    const target = event.target.closest(".header__active-menu-item");
+    if (target) {
+      target.classList.remove("hover");
+    }
+  }
+
+  menuItems.forEach((menuItem) => {
+    menuItem.addEventListener("mouseover", addHover);
+    menuItem.addEventListener("mouseout", removeHover);
+  });
+
+  // Add event listeners for mega menu content elements
+  document.addEventListener("mouseover", function (event) {
+    const target = event.target.closest(".mega-menu__content");
+    if (target) {
+      const menuItem = target.parentElement.querySelector(
+        ".header__active-menu-item"
+      );
+      if (menuItem) {
+        menuItem.classList.add("hover");
+      }
+    }
+  });
+
+  document.addEventListener("mouseout", function (event) {
+    const target = event.target.closest(".mega-menu__content");
+    if (target) {
+      const menuItem = target.parentElement.querySelector(
+        ".header__active-menu-item"
+      );
+      if (menuItem) {
+        menuItem.classList.remove("hover");
+      }
+    }
+  });
 });
-
-
