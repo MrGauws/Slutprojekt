@@ -588,6 +588,9 @@ header {
 .header__icon--search span .search-texxt {
   display: none;
 }
+.mega-menu__link {
+  text-decoration: none !important;
+}
 .mega-menu__link--active {
   display: none;
 }
