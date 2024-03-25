@@ -26,15 +26,15 @@ function rotateISPs() {
 }
 rotateISPs();
 document.addEventListener("DOMContentLoaded", function() {
-  const menuItems = document.querySelectorAll(".header__active-menu-item");
+  const menuItems = document.querySelectorAll(".header__menu-item span");
   function addHover(event) {
-    const target = event.target.closest(".header__active-menu-item");
+    const target = event.target.closest(".header__menu-item span");
     if (target) {
       target.classList.add("hover");
     }
   }
   function removeHover(event) {
-    const target = event.target.closest(".header__active-menu-item");
+    const target = event.target.closest(".header__menu-item span");
     if (target) {
       target.classList.remove("hover");
     }
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const target = event.target.closest(".mega-menu__content");
     if (target) {
       const menuItem = target.parentElement.querySelector(
-        ".header__active-menu-item"
+        ".header__menu-item span"
       );
       if (menuItem) {
         menuItem.classList.add("hover");
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const target = event.target.closest(".mega-menu__content");
     if (target) {
       const menuItem = target.parentElement.querySelector(
-        ".header__active-menu-item"
+        ".header__menu-item span"
       );
       if (menuItem) {
         menuItem.classList.remove("hover");

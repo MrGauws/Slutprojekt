@@ -1,7 +1,7 @@
 header {
   margin-top: 2.3% !important;
   align-items: baseline;
-  padding: 0 !important;
+  padding: 0 60px !important;
   height: 8rem;
 }
 
@@ -20,7 +20,7 @@ header {
   padding: 0;
 }
 
-.header__active-menu-item {
+.header__menu-item span {
   font-family: $font1;
   font-weight: 700;
   text-decoration: none !important;
