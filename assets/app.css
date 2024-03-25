@@ -1224,8 +1224,13 @@ variant-swatch-king .swatches div div div fieldset ul li div .swatch-button-titl
   background-color: white !important;
   margin-bottom: -150px;
 }
-#MainContent.product-page {
-  margin-left: -17%;
+#MainContent.product-page .page-width {
+  padding-left: 0;
+  margin-left: 0;
+}
+#MainContent.product-page product-recommendations {
+  padding-right: 0;
+  padding-left: 5% !important;
 }
 #MainContent.product-page .jdgm-widget.jdgm-widget {
   margin-left: 20rem;
