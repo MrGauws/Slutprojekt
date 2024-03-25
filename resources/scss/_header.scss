@@ -67,6 +67,10 @@ header {
   }
 }
 
+.mega-menu__link {
+    text-decoration: none !important;
+}
+
 .mega-menu__link--active {
   display: none;
 }
