@@ -660,7 +660,7 @@ predictive-search[loading] .predictive-search {
     left: unset !important;
   }
 }
-@media screen and (max-width: 375) {
+@media screen and (max-width: 375px) {
   predictive-search[open] .predictive-search,
   predictive-search[loading] .predictive-search {
     width: unset !important;
@@ -742,7 +742,7 @@ h2.banner__heading.inline-richtext.h1 {
   font-weight: 700;
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
-  margin-right: 40%;
+  margin-right: 0;
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
   border-radius: 5.6rem !important;
@@ -769,7 +769,7 @@ h2.banner__heading.inline-richtext.h1 {
 /*-------------------------------------------------->1440--------------------------------------------------*/
 @media screen and (max-width: 1440px) {
   .banner__box {
-    margin-right: 35%;
+    margin-right: 0;
   }
   .banner__box .button {
     position: unset;
@@ -781,7 +781,7 @@ h2.banner__heading.inline-richtext.h1 {
     font-size: 3vw;
   }
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
-    margin-left: 37%;
+    margin-left: 0;
   }
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
     position: unset;
@@ -789,7 +789,7 @@ h2.banner__heading.inline-richtext.h1 {
     font-weight: 700;
   }
   #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
-    margin-right: 40%;
+    margin-right: 0;
   }
   #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
     border-radius: 5.6rem !important;
@@ -1484,7 +1484,7 @@ h2.banner__heading.inline-richtext.h1 {
   font-weight: 700;
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
-  margin-right: 40%;
+  margin-right: 0;
 }
 #MainContent #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
   border-radius: 5.6rem !important;
@@ -1511,7 +1511,7 @@ h2.banner__heading.inline-richtext.h1 {
 /*-------------------------------------------------->1440--------------------------------------------------*/
 @media screen and (max-width: 1440px) {
   .banner__box {
-    margin-right: 35%;
+    margin-right: 0;
   }
   .banner__box .button {
     position: unset;
@@ -1523,7 +1523,7 @@ h2.banner__heading.inline-richtext.h1 {
     font-size: 3vw;
   }
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box {
-    margin-left: 37%;
+    margin-left: 0;
   }
   #Banner-template--22290662097201__image_banner_Lfcfa6 .banner__content .banner__box .button {
     position: unset;
@@ -1531,7 +1531,7 @@ h2.banner__heading.inline-richtext.h1 {
     font-weight: 700;
   }
   #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box {
-    margin-right: 40%;
+    margin-right: 0;
   }
   #Banner-template--22290662097201__image_banner_jyUqDy .banner__content .banner__box .button {
     border-radius: 5.6rem !important;

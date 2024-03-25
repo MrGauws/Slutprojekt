@@ -152,7 +152,7 @@ predictive-search[loading] .predictive-search {
 }
 }
 
-@media screen and (max-width: 375) {
+@media screen and (max-width: 375px) {
     predictive-search[open] .predictive-search,
     predictive-search[loading] .predictive-search {
     width: unset !important;
