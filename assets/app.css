@@ -259,6 +259,7 @@ cart-items .title-wrapper-with-link .underlined-link {
   }
   table.cart-items {
     width: 100% !important;
+    padding-bottom: 40px;
   }
   .cart__footer-wrapper div.skeppnings-container {
     display: flex !important;
@@ -531,7 +532,7 @@ footer .footer__content-bottom .footer-menu-div a {
   }
 }
 header {
-  margin-top: 2.3% !important;
+  margin-top: 2% !important;
   align-items: baseline;
   padding: 0 40px !important;
   height: 8rem;
