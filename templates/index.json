@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Homepage1.webp",
+        "image": "shopify:\/\/shop_images\/banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
@@ -139,7 +139,7 @@
         "buttons_fYDxbP"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero1.webp",
+        "image": "shopify:\/\/shop_images\/banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -215,7 +215,7 @@
         "buttons_6JrKmT"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hero2.webp",
+        "image": "shopify:\/\/shop_images\/banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
@@ -259,7 +259,7 @@
     "custom_liquid_p7tHay": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"image-gallery\">\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/MenuWoman.webp?v=1710459291\" alt=\"Image 1\">\n    <a href=\"\/page1\" class=\"button\">SHOP WOMEN<\/a>\n  <\/div>\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/MenuMen.webp?v=1710459291\" alt=\"Image 2\">\n    <a href=\"\/page2\" class=\"button\">SHOP MEN<\/a>\n  <\/div>\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/MenuAccessories.webp?v=1710459291\" alt=\"Image 3\">\n    <a href=\"\/page3\" class=\"button\">SHOP ACCESSORIES<\/a>\n  <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"image-gallery\">\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/meny1.jpg?v=1711467899\" alt=\"Image 1\">\n    <a href=\"\/page1\" class=\"button\">SHOP WOMEN<\/a>\n  <\/div>\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/meny2.jpg?v=1711467899\" alt=\"Image 2\">\n    <a href=\"\/page2\" class=\"button\">SHOP MEN<\/a>\n  <\/div>\n  <div class=\"image-item\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0866\/9747\/6401\/files\/meny1.jpg?v=1711467899\" alt=\"Image 3\">\n    <a href=\"\/page3\" class=\"button\">SHOP ACCESSORIES<\/a>\n  <\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
